@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>getSelectorDrawable - backpack-android</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="index.html">net.skyscanner.backpack.button</a>&nbsp;/&nbsp;<a href="./get-selector-drawable.html">getSelectorDrawable</a><br/>
+<br/>
+<h1>getSelectorDrawable</h1>
+<a name="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)"></a>
+<code><span class="keyword">fun </span><span class="identifier">getSelectorDrawable</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)/normalColor">normalColor</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)/cornerRadius">cornerRadius</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><span class="identifier">Float</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)/strokeColor">strokeColor</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)/strokeWidth">strokeWidth</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.button$getSelectorDrawable(kotlin.Int, kotlin.Float, kotlin.Int, kotlin.Int, kotlin.Int)/pressedColor">pressedColor</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a>&nbsp;<span class="symbol">=</span>&nbsp;darken(normalColor)<span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/button/BpkButton.kt#L166">(source)</a>
+<p>Utility method to create a drawable with given selector states for normal, pressed and disabled.
+Uses either a RippleDrawable if above API 21 or StateListDrawable</p>
+<h3>Parameters</h3>
+<p><a name="normalColor"></a>
+<code>normalColor</code> - required, used as main background color on the drawable</p>
+<p><a name="cornerRadius"></a>
+<code>cornerRadius</code> - optional, used as the radius on the corners (use 100 for square)</p>
+<p><a name="strokeColor"></a>
+<code>strokeColor</code> - optional, color integer for the stroke</p>
+<p><a name="strokeWidth"></a>
+<code>strokeWidth</code> - optional, width in px for the stroke</p>
+<p><a name="pressedColor"></a>
+<code>pressedColor</code> - required, color integer for the pressed state, defaults to a 20% darken factor</p>
+<p><strong>Return</strong><br/>
+Drawable</p>
+</BODY>
+</HTML>
