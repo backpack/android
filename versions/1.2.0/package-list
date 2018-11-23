@@ -4,6 +4,7 @@ $dokka.linkExtension:html
 net.skyscanner.backpack.badge
 net.skyscanner.backpack.button
 net.skyscanner.backpack.card
+net.skyscanner.backpack.chip
 net.skyscanner.backpack.dialog
 net.skyscanner.backpack.gradient
 net.skyscanner.backpack.panel
