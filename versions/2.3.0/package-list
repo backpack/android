@@ -1,0 +1,16 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+net.skyscanner.backpack.badge
+net.skyscanner.backpack.button
+net.skyscanner.backpack.calendar
+net.skyscanner.backpack.calendar.model
+net.skyscanner.backpack.calendar.presenter
+net.skyscanner.backpack.card
+net.skyscanner.backpack.chip
+net.skyscanner.backpack.dialog
+net.skyscanner.backpack.gradient
+net.skyscanner.backpack.panel
+net.skyscanner.backpack.spinner
+net.skyscanner.backpack.text
+net.skyscanner.backpack.toggle
