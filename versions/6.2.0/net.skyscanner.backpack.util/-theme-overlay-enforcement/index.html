@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ThemeOverlayEnforcement - backpack-android</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.util</a>&nbsp;/&nbsp;<a href="./index.html">ThemeOverlayEnforcement</a><br/>
+<br/>
+<h1>ThemeOverlayEnforcement</h1>
+<code><span class="keyword">class </span><span class="identifier">ThemeOverlayEnforcement</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/ContextWrapper.html"><span class="identifier">ContextWrapper</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/util/ThemesUtil.kt#L113">(source)</a>
+<p>ThemeOverlayEnforcement is a dummy <a href="https://developer.android.com/reference/android/content/ContextWrapper.html">ContextWrapper</a> used to indicate to Backpack components
+that the theme defined inside the <code>bpkThemeOverlay</code> should be used to style components.</p>
+<p>Consider this theme:</p>
+<pre><code class="lang-xml">&lt;style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"&gt;
+  &lt;item name="colorPrimary"&gt;@color/bpkBlue500&lt;/item&gt;
+  &lt;item name="colorPrimaryDark"&gt;@color/bpkBlue700&lt;/item&gt;
+  &lt;item name="colorAccent"&gt;@color/bpkGreen500&lt;/item&gt;
+  &lt;item name="android:windowBackground"&gt;@color/bpkWhite&lt;/item&gt;
+  &lt;item name="bpkThemeOverlay"&gt;@style/DohaTheme&lt;/item&gt;
+&lt;/style&gt;
+</code></pre>
+<p>Now you can wrap any context during runtime with <a href="./index.html">ThemeOverlayEnforcement</a> to apply "DohaTheme"
+to all Backpack components.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ThemeOverlayEnforcement</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.util.ThemeOverlayEnforcement$<init>(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span></code>
+<p>ThemeOverlayEnforcement is a dummy <a href="https://developer.android.com/reference/android/content/ContextWrapper.html">ContextWrapper</a> used to indicate to Backpack components
+that the theme defined inside the <code>bpkThemeOverlay</code> should be used to style components.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
