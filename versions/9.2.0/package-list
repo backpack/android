@@ -13,6 +13,7 @@ net.skyscanner.backpack.dialog
 net.skyscanner.backpack.gradient
 net.skyscanner.backpack.panel
 net.skyscanner.backpack.spinner
+net.skyscanner.backpack.starrating
 net.skyscanner.backpack.text
 net.skyscanner.backpack.toggle
 net.skyscanner.backpack.util
