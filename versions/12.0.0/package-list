@@ -13,6 +13,7 @@ net.skyscanner.backpack.checkbox
 net.skyscanner.backpack.chip
 net.skyscanner.backpack.dialog
 net.skyscanner.backpack.fab
+net.skyscanner.backpack.flare
 net.skyscanner.backpack.gradient
 net.skyscanner.backpack.horisontalnav
 net.skyscanner.backpack.panel
