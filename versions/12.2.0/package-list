@@ -18,6 +18,7 @@ net.skyscanner.backpack.gradient
 net.skyscanner.backpack.horisontalnav
 net.skyscanner.backpack.panel
 net.skyscanner.backpack.rating
+net.skyscanner.backpack.snackbar
 net.skyscanner.backpack.spinner
 net.skyscanner.backpack.starrating
 net.skyscanner.backpack.starrating.internal
