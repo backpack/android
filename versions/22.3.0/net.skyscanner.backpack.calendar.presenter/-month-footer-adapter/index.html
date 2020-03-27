@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>MonthFooterAdapter - backpack-android</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.calendar.presenter</a>&nbsp;/&nbsp;<a href="./index.html">MonthFooterAdapter</a><br/>
+<br/>
+<h1>MonthFooterAdapter</h1>
+<code><span class="keyword">interface </span><span class="identifier">MonthFooterAdapter</span></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/calendar/presenter/MonthFooterAdapter.kt#L45">(source)</a>
+<p><a href="./index.html">MonthFooterAdapter</a> allows the creation of footer views
+for <a href="../../net.skyscanner.backpack.calendar/-bpk-calendar/index.html">net.skyscanner.backpack.calendar.BpkCalendar</a>.</p>
+<p>Example:</p>
+<pre><code>    object: MonthFooterAdapter {
+      override fun hasFooterForMonth(month: Int, year: Int): Boolean {
+        return month % 2 == 0
+      }
+
+      override fun onCreateView(month: Int, year: Int): BpkText {
+        return BpkText(context)
+      }
+
+      override fun onBindView(view: View, month: Int, year: Int) {
+        view as BpkText
+        view.text = "Footer view for $month and $year"
+       }
+    }</code></pre>
+<p><strong>See Also</strong><br/>
+<p><a href="../-bpk-calendar-controller/month-footer-adapter.html">BpkCalendarController.monthFooterAdapter</a></p>
+</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="has-footer-for-month.html">hasFooterForMonth</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">hasFooterForMonth</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$hasFooterForMonth(kotlin.Int, kotlin.Int)/month">month</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$hasFooterForMonth(kotlin.Int, kotlin.Int)/year">year</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Indicate that a month/year combination has a footer view.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-bind-view.html">onBindView</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onBindView</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$onBindView(android.view.View, kotlin.Int, kotlin.Int)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$onBindView(android.view.View, kotlin.Int, kotlin.Int)/month">month</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$onBindView(android.view.View, kotlin.Int, kotlin.Int)/year">year</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when data should be bind to <code>View</code>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view.html">onCreateView</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$onCreateView(kotlin.Int, kotlin.Int)/month">month</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.calendar.presenter.MonthFooterAdapter$onCreateView(kotlin.Int, kotlin.Int)/year">year</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a></code>
+<p>Called when a new instance of a footer view should be created.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../-highlighted-days-adapter/index.html">HighlightedDaysAdapter</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">HighlightedDaysAdapter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">MonthFooterAdapter</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
