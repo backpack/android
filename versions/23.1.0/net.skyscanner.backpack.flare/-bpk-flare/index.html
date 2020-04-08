@@ -8,7 +8,7 @@
 <a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.flare</a>&nbsp;/&nbsp;<a href="./index.html">BpkFlare</a><br/>
 <br/>
 <h1>BpkFlare</h1>
-<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">BpkFlare</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/flare/BpkFlare.kt#L30">(source)</a>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">BpkFlare</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/flare/BpkFlare.kt#L28">(source)</a>
 <p><a href="./index.html">BpkFlare</a> is designed to render a single item inside a "bubble".
 Think of message apps and how they show content inside text bubbles.</p>
 <p>This view uses bitmap masking to mask the flare shape and corners.
@@ -27,6 +27,13 @@ child.</p>
 </td>
 <td>
 <code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">InsetPaddingMode</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-pointer-direction/index.html">PointerDirection</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">PointerDirection</span></code></td>
 </tr>
 <tr>
 <td>
@@ -67,11 +74,20 @@ for the view clipping used to display the flare pointer.</p>
 </tr>
 <tr>
 <td>
+<p><a href="pointer-direction.html">pointerDirection</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">pointerDirection</span><span class="symbol">: </span><a href="-pointer-direction/index.html"><span class="identifier">PointerDirection</span></a></code>
+<p>Specify the vertical direction of the flare.</p>
+</td>
+</tr>
+<tr>
+<td>
 <p><a href="pointer-position.html">pointerPosition</a></p>
 </td>
 <td>
 <code><span class="keyword">var </span><span class="identifier">pointerPosition</span><span class="symbol">: </span><a href="-pointer-position/index.html"><span class="identifier">PointerPosition</span></a></code>
-<p>Specify where the pointer should be rendered.</p>
+<p>Specify the horizontal position of the flare.</p>
 </td>
 </tr>
 <tr>
