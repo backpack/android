@@ -1,0 +1,124 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BpkFlare - backpack-android</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.flare</a>&nbsp;/&nbsp;<a href="./index.html">BpkFlare</a><br/>
+<br/>
+<h1>BpkFlare</h1>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">BpkFlare</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/flare/BpkFlare.kt#L46">(source)</a>
+<p><a href="./index.html">BpkFlare</a> is designed to render a single item inside a "bubble".
+Think of message apps and how they show content inside text bubbles.</p>
+<p>This view uses bitmap masking to mask the flare shape and corners.
+When hardware acceleration is enabled this doesn't work as expected, so hardware
+acceleration is disabled for this view.</p>
+<p><a href="./index.html">BpkFlare</a> is designed to work with only one child and will throw an error if more than
+one is provided.</p>
+<p>No background or padding should be set to this view, set it directly to its
+child.</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-inset-padding-mode/index.html">InsetPaddingMode</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">InsetPaddingMode</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-pointer-direction/index.html">PointerDirection</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">PointerDirection</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-pointer-position/index.html">PointerPosition</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">PointerPosition</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">BpkFlare</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.flare.BpkFlare$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.flare.BpkFlare$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/attrs">attrs</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/util/AttributeSet.html"><span class="identifier">AttributeSet</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.flare.BpkFlare$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/defStyleAttr">defStyleAttr</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0<span class="symbol">)</span></code>
+<p><a href="./index.html">BpkFlare</a> is designed to render a single item inside a "bubble".
+Think of message apps and how they show content inside text bubbles.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="inset-padding-mode.html">insetPaddingMode</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">insetPaddingMode</span><span class="symbol">: </span><a href="-inset-padding-mode/index.html"><span class="identifier">InsetPaddingMode</span></a></code>
+<p>Specify if extra padding should be added to account
+for the view clipping used to display the flare pointer.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pointer-direction.html">pointerDirection</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">pointerDirection</span><span class="symbol">: </span><a href="-pointer-direction/index.html"><span class="identifier">PointerDirection</span></a></code>
+<p>Specify the vertical direction of the flare.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pointer-position.html">pointerPosition</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">pointerPosition</span><span class="symbol">: </span><a href="-pointer-position/index.html"><span class="identifier">PointerPosition</span></a></code>
+<p>Specify the horizontal position of the flare.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="round.html">round</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">round</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Specify if corner radius should be added or not.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="draw.html">draw</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">draw</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.flare.BpkFlare$draw(android.graphics.Canvas)/canvas">canvas</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/Canvas.html"><span class="identifier">Canvas</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-view-added.html">onViewAdded</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">onViewAdded</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.flare.BpkFlare$onViewAdded(android.view.View)/child">child</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

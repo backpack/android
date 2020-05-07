@@ -1,0 +1,89 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BpkBarChart.Column - backpack-android</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../../index.html">net.skyscanner.backpack.barchart</a>&nbsp;/&nbsp;<a href="../index.html">BpkBarChart</a>&nbsp;/&nbsp;<a href="./index.html">Column</a><br/>
+<br/>
+<h1>Column</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Column</span></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/barchart/BpkBarChart.kt#L45">(source)</a>
+<p>Represents a single bar in the chart.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">Column</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/id">id</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0L<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/title">title</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/subtitle">subtitle</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/badge">badge</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/inactive">inactive</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.barchart.BpkBarChart.Column$<init>(kotlin.Long, kotlin.CharSequence, kotlin.CharSequence, kotlin.CharSequence, kotlin.Boolean, kotlin.Float)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><span class="identifier">Float</span></a><span class="symbol">)</span></code>
+<p>Represents a single bar in the chart.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="badge.html">badge</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">badge</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a></code>
+<p>Text to be shown in the popup when the item is selected.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="id.html">id</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">id</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a></code>
+<p>An optional identifier of the bar.
+This allows to save the selected element each time the model is updated.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="inactive.html">inactive</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">inactive</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Marking the item inactive means inactive colours from the palette, will be used to draw this item.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="subtitle.html">subtitle</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">subtitle</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a></code>
+<p>A secondary text placed just below the title.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="title.html">title</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">title</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a></code>
+<p>A primary text placed just below the bar itself.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="value.html">value</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">value</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html"><span class="identifier">Float</span></a></code>
+<p>The value of the bar itself, should be a range between 0.0f and 1.0f.
+When a value bigger than 1.0f  is set, a "peak" indicator will be show at the top of the bar.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

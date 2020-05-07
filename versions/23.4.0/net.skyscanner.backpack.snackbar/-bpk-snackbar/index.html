@@ -1,0 +1,216 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BpkSnackbar - backpack-android</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.snackbar</a>&nbsp;/&nbsp;<a href="./index.html">BpkSnackbar</a><br/>
+<br/>
+<h1>BpkSnackbar</h1>
+<code><span class="keyword">class </span><span class="identifier">BpkSnackbar</span></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/snackbar/BpkSnackbar.kt#L62">(source)</a>
+<p>A wrapper around <a href="#">Snackbar</a> providing the required customization.</p>
+<p>Use <a href="make.html">BpkSnackbar.make</a> to create a new instance, then use it in the same way as a <a href="#">Snackbar</a>.</p>
+<p><strong>See Also</strong><br/>
+<p><a href="make.html">BpkSnackbar.make</a></p>
+<p><a href="set-text.html">BpkSnackbar.setText</a></p>
+<p><a href="set-action.html">BpkSnackbar.setAction</a></p>
+<p><a href="set-duration.html">BpkSnackbar.setDuration</a></p>
+<p><a href="set-duration.html">BpkSnackbar.setDuration</a></p>
+<p><a href="../set-on-dismissed.html">BpkSnackbar.setOnDismissed</a></p>
+<p><a href="set-behaviour.html">BpkSnackbar.setBehaviour</a></p>
+<p><a href="show.html">BpkSnackbar.show</a></p>
+</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-callback/index.html">Callback</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">Callback</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">BaseCallback</span><span class="symbol">&lt;</span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="behaviour.html">behaviour</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">behaviour</span><span class="symbol">: </span><span class="identifier">Behavior</span><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="duration.html">duration</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">duration</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="is-shown.html">isShown</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">isShown</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="raw-snackbar.html">rawSnackbar</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">rawSnackbar</span><span class="symbol">: </span><span class="identifier">Snackbar</span></code>
+<p>Provides access to internal <a href="#">Snackbar</a> instance.
+This method should only be used for accessing properties and methods
+that <a href="./index.html">BpkSnackbar</a> does not have.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-callback.html">addCallback</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addCallback</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$addCallback(com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback((net.skyscanner.backpack.snackbar.BpkSnackbar)))/callback">callback</span><span class="symbol">:</span>&nbsp;<span class="identifier">BaseCallback</span><span class="symbol">&lt;</span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="dismiss.html">dismiss</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">dismiss</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="remove-callback.html">removeCallback</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeCallback</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$removeCallback(com.google.android.material.snackbar.BaseTransientBottomBar.BaseCallback((net.skyscanner.backpack.snackbar.BpkSnackbar)))/callback">callback</span><span class="symbol">:</span>&nbsp;<span class="identifier">BaseCallback</span><span class="symbol">&lt;</span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">&gt;</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-action.html">setAction</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(kotlin.CharSequence, android.view.View.OnClickListener)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(kotlin.CharSequence, android.view.View.OnClickListener)/listener">listener</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View/OnClickListener.html"><span class="identifier">OnClickListener</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(kotlin.Int, android.view.View.OnClickListener)/resId">resId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(kotlin.Int, android.view.View.OnClickListener)/listener">listener</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View/OnClickListener.html"><span class="identifier">OnClickListener</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(android.graphics.drawable.Drawable, android.view.View.OnClickListener)/icon">icon</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setAction(android.graphics.drawable.Drawable, android.view.View.OnClickListener)/listener">listener</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View/OnClickListener.html"><span class="identifier">OnClickListener</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-behaviour.html">setBehaviour</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setBehaviour</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setBehaviour(com.google.android.material.snackbar.BaseTransientBottomBar.Behavior)/behavior">behavior</span><span class="symbol">:</span>&nbsp;<span class="identifier">Behavior</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-duration.html">setDuration</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setDuration</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setDuration(kotlin.Int)/duration">duration</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-icon.html">setIcon</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setIcon</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setIcon(android.graphics.drawable.Drawable)/icon">icon</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">setIcon</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setIcon(kotlin.Int)/icon">icon</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-text.html">setText</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setText</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setText(kotlin.CharSequence)/message">message</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">setText</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setText(kotlin.Int)/resId">resId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set-title.html">setTitle</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setTitle</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar$setTitle(kotlin.CharSequence)/title">title</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="show.html">show</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">show</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-l-e-n-g-t-h_-i-n-d-e-f-i-n-i-t-e.html">LENGTH_INDEFINITE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">LENGTH_INDEFINITE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-l-e-n-g-t-h_-l-o-n-g.html">LENGTH_LONG</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">LENGTH_LONG</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-l-e-n-g-t-h_-s-h-o-r-t.html">LENGTH_SHORT</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">LENGTH_SHORT</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="make.html">make</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">make</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/duration">duration</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">make</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.Int, kotlin.Int)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.Int, kotlin.Int)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.Int, kotlin.Int)/duration">duration</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code>
+<p>Creates a new <a href="#">Snackbar</a> instance using the given <a href="make.html#net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/text">text</a> and <a href="make.html#net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/duration">duration</a>.
+<a href="make.html#net.skyscanner.backpack.snackbar.BpkSnackbar.Companion$make(android.view.View, kotlin.CharSequence, kotlin.Int)/view">view</a> is used for accessing the themed context and hierarchy, to decide where to render the <a href="#">Snackbar</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../set-action.html">setAction</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">.</span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.CharSequence, kotlin.Function1((android.view.View, kotlin.Unit)))/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.CharSequence, kotlin.Function1((android.view.View, kotlin.Unit)))/listener">listener</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">.</span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.Int, kotlin.Function1((android.view.View, kotlin.Unit)))/resId">resId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.Int, kotlin.Function1((android.view.View, kotlin.Unit)))/listener">listener</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code><br/>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">.</span><span class="identifier">setAction</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, android.graphics.drawable.Drawable, kotlin.Function1((android.view.View, kotlin.Unit)))/icon">icon</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar$setAction(net.skyscanner.backpack.snackbar.BpkSnackbar, android.graphics.drawable.Drawable, kotlin.Function1((android.view.View, kotlin.Unit)))/listener">listener</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="../set-on-dismissed.html">setOnDismissed</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a><span class="symbol">.</span><span class="identifier">setOnDismissed</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.snackbar$setOnDismissed(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.Boolean, kotlin.Function0((kotlin.Unit)))/ignoreDismissAfterAction">ignoreDismissAfterAction</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.snackbar$setOnDismissed(net.skyscanner.backpack.snackbar.BpkSnackbar, kotlin.Boolean, kotlin.Function0((kotlin.Unit)))/callback">callback</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">BpkSnackbar</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
