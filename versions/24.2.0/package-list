@@ -19,6 +19,7 @@ net.skyscanner.backpack.flare
 net.skyscanner.backpack.gradient
 net.skyscanner.backpack.horisontalnav
 net.skyscanner.backpack.navbar
+net.skyscanner.backpack.overlay
 net.skyscanner.backpack.panel
 net.skyscanner.backpack.rating
 net.skyscanner.backpack.snackbar

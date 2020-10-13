@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BpkOverlay - backpack-android</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">backpack-android</a>&nbsp;/&nbsp;<a href="../index.html">net.skyscanner.backpack.overlay</a>&nbsp;/&nbsp;<a href="./index.html">BpkOverlay</a><br/>
+<br/>
+<h1>BpkOverlay</h1>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">BpkOverlay</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code> <a href="https://github.com/Skyscanner/backpack-android/tree/master/Backpack/src/main/java/net/skyscanner/backpack/overlay/BpkOverlay.kt#L42">(source)</a>
+<p><a href="./index.html">BpkOverlay</a> uses its first child as a background layer and draws
+overlay on top if it. All the other children are considered to be
+foreground layers and drawn on the top of the overlay. Overlay view
+extends <a href="https://developer.android.com/reference/android/widget/FrameLayout.html">FrameLayout</a> and inherits its behaviour.</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-corner-type/index.html">CornerType</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">CornerType</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-overlay-type/index.html">OverlayType</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">OverlayType</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">BpkOverlay</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/attrs">attrs</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/util/AttributeSet.html"><span class="identifier">AttributeSet</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$<init>(android.content.Context, android.util.AttributeSet, kotlin.Int)/defStyleAttr">defStyleAttr</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a>&nbsp;<span class="symbol">=</span>&nbsp;0<span class="symbol">)</span></code>
+<p><a href="./index.html">BpkOverlay</a> uses its first child as a background layer and draws
+overlay on top if it. All the other children are considered to be
+foreground layers and drawn on the top of the overlay. Overlay view
+extends <a href="https://developer.android.com/reference/android/widget/FrameLayout.html">FrameLayout</a> and inherits its behaviour.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="corner-type.html">cornerType</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">cornerType</span><span class="symbol">: </span><a href="-corner-type/index.html"><span class="identifier">CornerType</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="overlay-type.html">overlayType</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">overlayType</span><span class="symbol">: </span><a href="-overlay-type/index.html"><span class="identifier">OverlayType</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="draw-child.html">drawChild</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">drawChild</span><span class="symbol">(</span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$drawChild(android.graphics.Canvas, android.view.View, kotlin.Long)/canvas">canvas</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/Canvas.html"><span class="identifier">Canvas</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$drawChild(android.graphics.Canvas, android.view.View, kotlin.Long)/child">child</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="net.skyscanner.backpack.overlay.BpkOverlay$drawChild(android.graphics.Canvas, android.view.View, kotlin.Long)/drawingTime">drawingTime</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
