@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>MonthFooterAdapter</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../../";</script><script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../../styles/style.css" rel="Stylesheet"><link href="../../../styles/logo-styles.css" rel="Stylesheet"><link href="../../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../../styles/main.css" rel="Stylesheet"><script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../../scripts/main.js" async="async"></script>  </head>
+  <body>
+    <div id="container">
+      <div id="leftColumn"><a href="../../../index.html">
+          <div id="logo"></div>
+        </a>
+        <div id="paneSearch"></div>
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div id="leftToggler"><span class="icon-toggler"></span></div>
+<script type="text/javascript" src="../../../scripts/main.js"></script>        <div class="main-content" id="content" pageIds="backpack-android::net.skyscanner.backpack.calendar.presenter/MonthFooterAdapter///PointingToDeclaration//-100207699">
+          <div class="navigation-wrapper" id="navigation-wrapper">
+            <div class="breadcrumbs"><a href="../../../index.html">backpack-android</a>/<a href="../index.html">net.skyscanner.backpack.calendar.presenter</a>/<a href="index.html">MonthFooterAdapter</a></div>
+            <div class="pull-right d-flex">
+              <div id="searchBar"></div>
+            </div>
+          </div>
+          <div class="cover ">
+            <h1 class="cover"><span>Month</span><wbr></wbr><span>Footer</span><wbr></wbr><span><span>Adapter</span></span></h1>
+            <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:generateDokkaDocs/release"><div class="symbol monospace">interface <a href="index.html">MonthFooterAdapter</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph"><a href="index.html">MonthFooterAdapter</a> allows the creation of footer views for <a href="../../net.skyscanner.backpack.calendar/-bpk-calendar/index.html">net.skyscanner.backpack.calendar.BpkCalendar</a>.</p><p class="paragraph">Example:</p><div class="sample-container"><code class="" theme="idea"><pre>    object: MonthFooterAdapter {
+      override fun hasFooterForMonth(month: Int, year: Int): Boolean {
+        return month % 2 == 0
+      }
+
+      override fun onCreateView(month: Int, year: Int): BpkText {
+        return BpkText(context)
+      }
+
+      override fun onBindView(view: View, month: Int, year: Int) {
+        view as BpkText
+        view.text = &quot;Footer view for $month and $year&quot;
+       }
+    }</pre></code></div></div></div>
+          </div>
+          <div class="tabbedcontent">
+            <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="See also">See also</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+            <div class="tabs-section-body">
+              <h2 class="">See also</h2>
+              <div data-togglable="See also">
+                <div class="platform-hinted WithExtraAttributes" data-platform-hinted="data-platform-hinted" data-togglable="See also"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:generateDokkaDocs/release"><div data-togglable="See also"><div class="table" data-togglable="See also"><div class="table-row" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release"><div class="main-subrow keyValue WithExtraAttributes RowTitle"><div class=""><span class="inline-flex"><a href="../-bpk-calendar-controller/month-footer-adapter.html"><span>net.</span><wbr></wbr><span>skyscanner.</span><wbr></wbr><span>backpack.</span><wbr></wbr><span>calendar.</span><wbr></wbr><span>presenter.</span><wbr></wbr><span>Bpk</span><wbr></wbr><span>Calendar</span><wbr></wbr><span><span>Controller</span></span></a></span><span class="inline-flex"><div data-togglable="See also"></div></span></div><div></div></div></div></div></div></div></div>
+              </div>
+              <h2 class="">Functions</h2>
+              <div class="table" data-togglable="Functions"><a data-name="1798422268%2FFunctions%2F-100207699" anchor-label="hasFooterForMonth" id="1798422268%2FFunctions%2F-100207699" data-filterable-set=":Backpack:generateDokkaDocs/release"></a>
+                <div class="table-row" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="has-footer-for-month.html"><span>has</span><wbr></wbr><span>Footer</span><wbr></wbr><span>For</span><wbr></wbr><span><span>Month</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1798422268%2FFunctions%2F-100207699"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:generateDokkaDocs/release"><div class="symbol monospace">abstract fun <a href="has-footer-for-month.html">hasFooterForMonth</a>(month: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, year: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>): <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<div class="brief "><p class="paragraph">Indicate that a month/year combination has a footer view.</p></div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1950764023%2FFunctions%2F-100207699" anchor-label="onBindView" id="-1950764023%2FFunctions%2F-100207699" data-filterable-set=":Backpack:generateDokkaDocs/release"></a>
+                <div class="table-row" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-bind-view.html"><span>on</span><wbr></wbr><span>Bind</span><wbr></wbr><span><span>View</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1950764023%2FFunctions%2F-100207699"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:generateDokkaDocs/release"><div class="symbol monospace">abstract fun <a href="on-bind-view.html">onBindView</a>(view: <a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a>, month: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, year: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>)<span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<div class="brief "><p class="paragraph">Called when data should be bind to <code>View</code>.</p></div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+<a data-name="-1639596492%2FFunctions%2F-100207699" anchor-label="onCreateView" id="-1639596492%2FFunctions%2F-100207699" data-filterable-set=":Backpack:generateDokkaDocs/release"></a>
+                <div class="table-row" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="on-create-view.html"><span>on</span><wbr></wbr><span>Create</span><wbr></wbr><span><span>View</span></span></a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1639596492%2FFunctions%2F-100207699"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div>
+                      <div class="title"><div class="divergent-group" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release"><div class="with-platform-tags"><span class="pull-right"></span></div>
+
+  <div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:generateDokkaDocs/release"><div class="symbol monospace">abstract fun <a href="on-create-view.html">onCreateView</a>(month: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>, year: <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a>): <a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+  </div>
+<div class="brief "><p class="paragraph">Called when a new instance of a footer view should be created.</p></div></div>
+</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="">Inheritors</h2>
+              <div class="table" data-togglable="Inheritors"><a data-name="-1601747229%2FInheritors%2F-100207699" anchor-label="HighlightedDaysAdapter" id="-1601747229%2FInheritors%2F-100207699" data-filterable-set=":Backpack:generateDokkaDocs/release"></a>
+                <div class="table-row" data-filterable-current=":Backpack:generateDokkaDocs/release" data-filterable-set=":Backpack:generateDokkaDocs/release">
+                  <div class="main-subrow keyValue ">
+                    <div class=""><span class="inline-flex"><a href="../-highlighted-days-adapter/index.html">HighlightedDaysAdapter</a><span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1601747229%2FInheritors%2F-100207699"></span>
+                          <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                        </span></span></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content"></a></span><span>© 2021 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+
