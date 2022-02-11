@@ -40,6 +40,7 @@ net.skyscanner.backpack.toast
 net.skyscanner.backpack.toggle
 net.skyscanner.backpack.util
 module:backpack-compose
+net.skyscanner.backpack.compose.button
 net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.icons
 net.skyscanner.backpack.compose.icons.lg
