@@ -108,6 +108,12 @@ $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Destructive/ordina
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Featured///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-featured/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Featured/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-featured/name.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Featured/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-featured/ordinal.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Link///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link/index.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Link/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link/name.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Link/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link/ordinal.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.LinkOnDark///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link-on-dark/index.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.LinkOnDark/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link-on-dark/name.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.LinkOnDark/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-link-on-dark/ordinal.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Primary///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-primary/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Primary/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-primary/name.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Primary/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-primary/ordinal.html
@@ -120,6 +126,9 @@ $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.PrimaryOnLight/ord
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Secondary///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Secondary/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary/name.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type.Secondary/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary/ordinal.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.SecondaryOnDark///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary-on-dark/index.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.SecondaryOnDark/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary-on-dark/name.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton.Type.SecondaryOnDark/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/-secondary-on-dark/ordinal.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton.Type///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-type/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton/BpkButton/#android.content.Context#android.util.AttributeSet?#kotlin.Int#net.skyscanner.backpack.button.BpkButton.Type#net.skyscanner.backpack.button.BpkButton.Size/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/-bpk-button.html
@@ -731,6 +740,9 @@ $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label1/ordinal/#/
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label2///PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label2/index.html
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label2/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label2/name.html
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label2/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label2/ordinal.html
+$dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label3///PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label3/index.html
+$dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label3/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label3/name.html
+$dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Label3/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-label3/ordinal.html
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Subheading///PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-subheading/index.html
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Subheading/name/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-subheading/name.html
 $dokka.location:net.skyscanner.backpack.text/BpkText.TextStyle.Subheading/ordinal/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.text/-bpk-text/-text-style/-subheading/ordinal.html

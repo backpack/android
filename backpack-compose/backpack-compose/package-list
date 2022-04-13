@@ -27,6 +27,9 @@ $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Featured/or
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Link///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link/index.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Link/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link/name.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Link/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link/ordinal.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.LinkOnDark///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link-on-dark/index.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.LinkOnDark/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link-on-dark/name.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.LinkOnDark/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-link-on-dark/ordinal.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Primary///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-primary/index.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Primary/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-primary/name.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Primary/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-primary/ordinal.html
@@ -39,6 +42,9 @@ $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.PrimaryOnLi
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Secondary///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary/index.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Secondary/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary/name.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.Secondary/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary/ordinal.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.SecondaryOnDark///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary-on-dark/index.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.SecondaryOnDark/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary-on-dark/name.html
+$dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType.SecondaryOnDark/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/-secondary-on-dark/ordinal.html
 $dokka.location:net.skyscanner.backpack.compose.button/BpkButtonType///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.button/-bpk-button-type/index.html
 $dokka.location:net.skyscanner.backpack.compose.card////PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/index.html
 $dokka.location:net.skyscanner.backpack.compose.card//BpkCard/#androidx.compose.ui.Modifier#net.skyscanner.backpack.compose.card.BpkCardCorner#net.skyscanner.backpack.compose.card.BpkCardPadding#androidx.compose.ui.Alignment#kotlin.Boolean#kotlin.Function1[androidx.compose.foundation.layout.BoxScope,kotlin.Unit]/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card.html
@@ -695,6 +701,7 @@ $dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/hero4/#/Poi
 $dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/hero5/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.tokens/-bpk-typography/hero5.html
 $dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/label1/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.tokens/-bpk-typography/label1.html
 $dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/label2/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.tokens/-bpk-typography/label2.html
+$dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/label3/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.tokens/-bpk-typography/label3.html
 $dokka.location:net.skyscanner.backpack.compose.tokens/BpkTypography/subheading/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.tokens/-bpk-typography/subheading.html
 net.skyscanner.backpack.compose.button
 net.skyscanner.backpack.compose.card
