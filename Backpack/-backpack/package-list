@@ -140,6 +140,7 @@ $dokka.location:net.skyscanner.backpack.button/BpkButton/iconPosition/#/Pointing
 $dokka.location:net.skyscanner.backpack.button/BpkButton/invalidateDrawable/#android.graphics.drawable.Drawable/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/invalidate-drawable.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton/loading/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/loading.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton/setEnabled/#kotlin.Boolean/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/set-enabled.html
+$dokka.location:net.skyscanner.backpack.button/BpkButton/size/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/size.html
 $dokka.location:net.skyscanner.backpack.button/BpkButton/type/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button/type.html
 $dokka.location:net.skyscanner.backpack.button/BpkButtonLink.Companion///PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button-link/-companion/index.html
 $dokka.location:net.skyscanner.backpack.button/BpkButtonLink.Companion/END/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.button/-bpk-button-link/-companion/-e-n-d.html
