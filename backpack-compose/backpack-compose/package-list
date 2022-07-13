@@ -86,6 +86,9 @@ $dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.Default/or
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.Focus///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-focus/index.html
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.Focus/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-focus/name.html
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.Focus/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-focus/ordinal.html
+$dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.None///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-none/index.html
+$dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.None/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-none/name.html
+$dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation.None/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/-none/ordinal.html
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardElevation///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-elevation/index.html
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardPadding.None///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-padding/-none/index.html
 $dokka.location:net.skyscanner.backpack.compose.card/BpkCardPadding.None/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.card/-bpk-card-padding/-none/name.html
@@ -196,12 +199,12 @@ $dokka.location:net.skyscanner.backpack.compose.spinner//BpkSpinner/#net.skyscan
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Large///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-large/index.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Large/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-large/name.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Large/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-large/ordinal.html
-$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Medium///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-medium/index.html
-$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Medium/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-medium/name.html
-$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Medium/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-medium/ordinal.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Small///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-small/index.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Small/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-small/name.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.Small/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-small/ordinal.html
+$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.XLarge///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-x-large/index.html
+$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.XLarge/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-x-large/name.html
+$dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize.XLarge/ordinal/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/-x-large/ordinal.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerSize///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-size/index.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerStyle.Disabled///PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-style/-disabled/index.html
 $dokka.location:net.skyscanner.backpack.compose.spinner/BpkSpinnerStyle.Disabled/name/#/PointingToDeclaration/backpack-compose/net.skyscanner.backpack.compose.spinner/-bpk-spinner-style/-disabled/name.html
