@@ -265,12 +265,6 @@ $dokka.location:net.skyscanner.backpack.calendar/BpkCalendar/onScroll/#android.w
 $dokka.location:net.skyscanner.backpack.calendar/BpkCalendar/removeOnScrollListener/#net.skyscanner.backpack.calendar.view.BpkCalendarScrollListener/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar/-bpk-calendar/remove-on-scroll-listener.html
 $dokka.location:net.skyscanner.backpack.calendar/BpkCalendar/setController/#net.skyscanner.backpack.calendar.presenter.BpkCalendarController/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar/-bpk-calendar/set-controller.html
 $dokka.location:net.skyscanner.backpack.calendar/BpkCalendar/setSelectionFromTop/#kotlin.Int#kotlin.Int/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar/-bpk-calendar/set-selection-from-top.html
-$dokka.location:net.skyscanner.backpack.calendar2.data////PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/index.html
-$dokka.location:net.skyscanner.backpack.calendar2.data/CalendarDispatchers///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/-calendar-dispatchers/index.html
-$dokka.location:net.skyscanner.backpack.calendar2.data/CalendarDispatchers/Background/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/-calendar-dispatchers/-background.html
-$dokka.location:net.skyscanner.backpack.calendar2.data/CalendarDispatchers/Main/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/-calendar-dispatchers/-main.html
-$dokka.location:net.skyscanner.backpack.calendar2.data/CalendarDispatchers/setBackground/#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/-calendar-dispatchers/set-background.html
-$dokka.location:net.skyscanner.backpack.calendar2.data/CalendarDispatchers/setMain/#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.data/-calendar-dispatchers/set-main.html
 $dokka.location:net.skyscanner.backpack.calendar2.extension////PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.extension/index.html
 $dokka.location:net.skyscanner.backpack.calendar2.extension//toIterable/kotlin.ranges.ClosedRange[org.threeten.bp.LocalDate]#kotlin.Long#org.threeten.bp.temporal.TemporalUnit/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2.extension/to-iterable.html
 $dokka.location:net.skyscanner.backpack.calendar2////PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/index.html
@@ -287,19 +281,21 @@ $dokka.location:net.skyscanner.backpack.calendar2/CalendarEffect.MonthSelected//
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarEffect.MonthSelected/MonthSelected/#org.threeten.bp.YearMonth/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-effect/-month-selected/-month-selected.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarEffect.MonthSelected/date/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-effect/-month-selected/date.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarEffect///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-effect/index.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Dates///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-dates/index.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.MonthSelectionMode.Disabled///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-month-selection-mode/-disabled/index.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.MonthSelectionMode.SelectWholeMonth///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-month-selection-mode/-select-whole-month/index.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.MonthSelectionMode.SelectWholeMonth/SelectWholeMonth/#kotlin.String/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-month-selection-mode/-select-whole-month/-select-whole-month.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.MonthSelectionMode.SelectWholeMonth/label/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-month-selection-mode/-select-whole-month/label.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.MonthSelectionMode///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-month-selection-mode/index.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Disabled///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-disabled/index.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Month///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-month/index.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Month/Month/#kotlin.String/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-month/-month.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Month/selectWholeMonthLabel/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-month/select-whole-month-label.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Rangeable///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-rangeable/index.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Range///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-range/index.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode.Single///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/-single/index.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams.SelectionMode///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-selection-mode/index.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams///PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/index.html
-$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/CalendarParams/#net.skyscanner.backpack.calendar2.CalendarParams.SelectionMode#kotlin.ranges.ClosedRange[org.threeten.bp.LocalDate]#kotlin.collections.Map[org.threeten.bp.LocalDate,net.skyscanner.backpack.calendar2.CellInfo]#java.util.Locale#org.threeten.bp.format.TextStyle#org.threeten.bp.LocalDate/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-calendar-params.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/CalendarParams/#net.skyscanner.backpack.calendar2.CalendarParams.SelectionMode#kotlin.ranges.ClosedRange[org.threeten.bp.LocalDate]#kotlin.collections.Map[org.threeten.bp.LocalDate,net.skyscanner.backpack.calendar2.CellInfo]#java.util.Locale#org.threeten.bp.format.TextStyle#org.threeten.bp.LocalDate#net.skyscanner.backpack.calendar2.CalendarParams.MonthSelectionMode/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/-calendar-params.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/cellsInfo/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/cells-info.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/dayOfWeekText/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/day-of-week-text.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/locale/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/locale.html
+$dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/monthSelectionMode/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/month-selection-mode.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/now/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/now.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/range/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/range.html
 $dokka.location:net.skyscanner.backpack.calendar2/CalendarParams/selectionMode/#/PointingToDeclaration/-backpack/net.skyscanner.backpack.calendar2/-calendar-params/selection-mode.html
@@ -836,7 +832,6 @@ net.skyscanner.backpack.calendar.model
 net.skyscanner.backpack.calendar.presenter
 net.skyscanner.backpack.calendar.view
 net.skyscanner.backpack.calendar2
-net.skyscanner.backpack.calendar2.data
 net.skyscanner.backpack.calendar2.extension
 net.skyscanner.backpack.card
 net.skyscanner.backpack.checkbox
