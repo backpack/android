@@ -45,6 +45,7 @@ net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.checkbox
 net.skyscanner.backpack.compose.chip
 net.skyscanner.backpack.compose.dialog
+net.skyscanner.backpack.compose.fab
 net.skyscanner.backpack.compose.fieldset
 net.skyscanner.backpack.compose.flare
 net.skyscanner.backpack.compose.horizontalnav
