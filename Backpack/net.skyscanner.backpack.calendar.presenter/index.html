@@ -4,10 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>net.skyscanner.backpack.calendar.presenter</title>
 <link href="../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
-const savedDarkMode = storage ? JSON.parse(storage) : false
-if(savedDarkMode === true){
-    document.getElementsByTagName("html")[0].classList.add("theme-dark")
-}</script>
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
 <script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async></script>
 <link href="../../styles/style.css" rel="Stylesheet">
 <link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
@@ -18,7 +26,8 @@ if(savedDarkMode === true){
 <script type="text/javascript" src="../../scripts/navigation-loader.js" async></script>
 <script type="text/javascript" src="../../scripts/platform-content-handler.js" async></script>
 <script type="text/javascript" src="../../scripts/main.js" defer></script>
-<script type="text/javascript" src="../../scripts/prism.js" async></script></head>
+<script type="text/javascript" src="../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
 <body>
 <div class="navigation-wrapper" id="navigation-wrapper">
     <div id="leftToggler"><span class="icon-toggler"></span></div>
@@ -38,9 +47,9 @@ if(savedDarkMode === true){
     </div>
     <div id="main">
 <div class="main-content" id="content" pageids="Backpack::net.skyscanner.backpack.calendar.presenter////PointingToDeclaration//-1657958349">
-  <div class="breadcrumbs"><a href="../index.html">Backpack</a><span class="delimiter">/</span><a href="index.html">net.skyscanner.backpack.calendar.presenter</a></div>
+  <div class="breadcrumbs"><a href="../index.html">Backpack</a><span class="delimiter">/</span><span class="current">net.skyscanner.backpack.calendar.presenter</span></div>
   <div class="cover ">
-    <h1 class="cover"><span><span>Package</span></span> <span>net.</span><wbr><span>skyscanner.</span><wbr><span>backpack.</span><wbr><span>calendar.</span><wbr><span>presenter</span></h1>
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button></div>
@@ -56,7 +65,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">abstract </span></strike><strike><span class="token keyword">class </span></strike><a href="-bpk-calendar-controller/index.html"><strike>BpkCalendarController</strike></a><strike><span class="token punctuation">(</span></strike><span class="parameters "><span class="parameter "><span class="token keyword">val </span>selectionType<span class="token operator">: </span><a href="-selection-type/index.html">SelectionType</a><span class="token operator"> = </span>SelectionType.RANGE<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>currentDateProvider<span class="token operator">: </span><a href="index.html#1117727490%2FClasslikes%2F-1657958349">CurrentDateProvider</a><span class="token operator"> = </span>LocalDateProvider</span></span><strike><span class="token punctuation">)</span></strike><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="-bpk-calendar-controller/index.html"><strike>BpkCalendarController</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>selectionType<span class="token operator">: </span><a href="-selection-type/index.html">SelectionType</a><span class="token operator"> = </span>SelectionType.RANGE<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>currentDateProvider<span class="token operator">: </span><a href="index.html#1117727490%2FClasslikes%2F-1657958349">CurrentDateProvider</a><span class="token operator"> = </span>LocalDateProvider</span></span><span class="token punctuation">)</span></div></div></div>
               </div>
             </div>
           </div>
@@ -71,7 +80,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">typealias </span></strike><a href="index.html#1117727490%2FClasslikes%2F-1657958349">CurrentDateProvider</a><strike><span class="token operator"> = </span></strike><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">typealias </span><strike><a href="index.html#1117727490%2FClasslikes%2F-1657958349">CurrentDateProvider</a></strike><span class="token operator"> = </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span></div></div></div>
               </div>
             </div>
           </div>
@@ -86,7 +95,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">typealias </span></strike><a href="index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><strike><span class="token operator"> = </span></strike><span class="token punctuation">(</span><span class="token keyword"></span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">typealias </span><strike><a href="index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a></strike><span class="token operator"> = </span><span class="token punctuation">(</span><span class="token keyword"></span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
               </div>
             </div>
           </div>
@@ -101,7 +110,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">open </span></strike><strike><span class="token keyword">class </span></strike><a href="-highlighted-days-adapter/index.html"><strike>HighlightedDaysAdapter</strike></a><strike><span class="token punctuation">(</span></strike><span class="parameters wrapped"><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token keyword">val </span>locale<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-days-adapter/-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter indented">&nbsp;&nbsp;&nbsp;&nbsp;formatDate<span class="token operator">: </span><a href="index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><strike><span class="token punctuation">)</span></strike><strike> : </strike><a href="-month-footer-adapter/index.html"><strike>MonthFooterAdapter</strike></a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="-highlighted-days-adapter/index.html"><strike>HighlightedDaysAdapter</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>locale<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter ">holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-days-adapter/-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">formatDate<span class="token operator">: </span><a href="index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="-month-footer-adapter/index.html">MonthFooterAdapter</a></div></div></div>
               </div>
             </div>
           </div>
@@ -116,7 +125,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">interface </span></strike><a href="-month-footer-adapter/index.html"><strike>MonthFooterAdapter</strike></a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><div class="brief "><p class="paragraph"><a href="-month-footer-adapter/index.html">MonthFooterAdapter</a> allows the creation of footer views for <a href="../net.skyscanner.backpack.calendar/-bpk-calendar/index.html">net.skyscanner.backpack.calendar.BpkCalendar</a>.</p></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-month-footer-adapter/index.html"><strike>MonthFooterAdapter</strike></a></div><div class="brief "><p class="paragraph"><a href="-month-footer-adapter/index.html">MonthFooterAdapter</a> allows the creation of footer views for <a href="../net.skyscanner.backpack.calendar/-bpk-calendar/index.html">net.skyscanner.backpack.calendar.BpkCalendar</a>.</p></div></div></div>
               </div>
             </div>
           </div>
@@ -131,7 +140,7 @@ if(savedDarkMode === true){
                 </span></span></div>
             <div>
               <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace strikethrough"><strike><span class="token keyword">enum </span></strike><a href="-selection-type/index.html"><strike>SelectionType</strike></a><strike> : </strike><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html"><strike>Enum</strike></a><strike><span class="token operator">&lt;</span></strike><span class="token keyword"></span><a href="-selection-type/index.html">SelectionType</a><strike><span class="token operator">&gt; </span></strike><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-selection-type/index.html"><strike>SelectionType</strike></a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-selection-type/index.html">SelectionType</a><span class="token operator">&gt; </span></div></div></div>
               </div>
             </div>
           </div>
