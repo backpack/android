@@ -13,7 +13,6 @@ net.skyscanner.backpack.calendar.model
 net.skyscanner.backpack.calendar.presenter
 net.skyscanner.backpack.calendar.view
 net.skyscanner.backpack.calendar2
-net.skyscanner.backpack.calendar2.extension
 net.skyscanner.backpack.card
 net.skyscanner.backpack.checkbox
 net.skyscanner.backpack.chip
@@ -39,9 +38,17 @@ net.skyscanner.backpack.text
 net.skyscanner.backpack.toast
 net.skyscanner.backpack.toggle
 net.skyscanner.backpack.util
+module:backpack-common
+net.skyscanner.backpack.calendar2
+net.skyscanner.backpack.calendar2.data
+net.skyscanner.backpack.calendar2.extension
+net.skyscanner.backpack.util
 module:backpack-compose
 net.skyscanner.backpack.compose.badge
+net.skyscanner.backpack.compose.bottomsheet
 net.skyscanner.backpack.compose.button
+net.skyscanner.backpack.compose.calendar
+net.skyscanner.backpack.compose.calendar.internal
 net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.checkbox
 net.skyscanner.backpack.compose.chip
