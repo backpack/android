@@ -44,7 +44,9 @@ net.skyscanner.backpack.calendar2.data
 net.skyscanner.backpack.calendar2.extension
 net.skyscanner.backpack.util
 module:backpack-compose
+net.skyscanner.backpack.compose
 net.skyscanner.backpack.compose.badge
+net.skyscanner.backpack.compose.barchart
 net.skyscanner.backpack.compose.bottomsheet
 net.skyscanner.backpack.compose.button
 net.skyscanner.backpack.compose.calendar
@@ -53,6 +55,7 @@ net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.checkbox
 net.skyscanner.backpack.compose.chip
 net.skyscanner.backpack.compose.dialog
+net.skyscanner.backpack.compose.divider
 net.skyscanner.backpack.compose.fab
 net.skyscanner.backpack.compose.fieldset
 net.skyscanner.backpack.compose.flare
