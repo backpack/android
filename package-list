@@ -75,8 +75,10 @@ net.skyscanner.backpack.compose.rating
 net.skyscanner.backpack.compose.sleketon
 net.skyscanner.backpack.compose.slider
 net.skyscanner.backpack.compose.spinner
+net.skyscanner.backpack.compose.starrating
 net.skyscanner.backpack.compose.switch
 net.skyscanner.backpack.compose.text
 net.skyscanner.backpack.compose.textfield
 net.skyscanner.backpack.compose.theme
 net.skyscanner.backpack.compose.tokens
+net.skyscanner.backpack.compose.utils
