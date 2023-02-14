@@ -55,6 +55,7 @@ net.skyscanner.backpack.compose.calendar.internal
 net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.cardbutton
 net.skyscanner.backpack.compose.cardbutton.internal
+net.skyscanner.backpack.compose.cardwrapper
 net.skyscanner.backpack.compose.checkbox
 net.skyscanner.backpack.compose.chip
 net.skyscanner.backpack.compose.dialog
@@ -68,6 +69,7 @@ net.skyscanner.backpack.compose.horizontalnav
 net.skyscanner.backpack.compose.icon
 net.skyscanner.backpack.compose.navigationbar
 net.skyscanner.backpack.compose.nudger
+net.skyscanner.backpack.compose.pageindicator
 net.skyscanner.backpack.compose.panel
 net.skyscanner.backpack.compose.price
 net.skyscanner.backpack.compose.radiobutton
