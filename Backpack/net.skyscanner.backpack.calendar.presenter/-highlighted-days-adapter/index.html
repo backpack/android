@@ -37,6 +37,9 @@
     <div>
     </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":Backpack:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -46,123 +49,131 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageids="Backpack::net.skyscanner.backpack.calendar.presenter/HighlightedDaysAdapter///PointingToDeclaration//-1657958349">
+<div class="main-content" data-page-type="classlike" id="content" pageids="Backpack::net.skyscanner.backpack.calendar.presenter/HighlightedDaysAdapter///PointingToDeclaration//-1657958349">
   <div class="breadcrumbs"><a href="../../index.html">Backpack</a><span class="delimiter">/</span><a href="../index.html">net.skyscanner.backpack.calendar.presenter</a><span class="delimiter">/</span><span class="current">HighlightedDaysAdapter</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Highlighted</span><wbr><span>Days</span><wbr><span><span>Adapter</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html"><strike>HighlightedDaysAdapter</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>locale<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter ">holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">formatDate<span class="token operator">: </span><a href="../index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="../-month-footer-adapter/index.html">MonthFooterAdapter</a></div><div class="deprecation-content"><h3 class="">Deprecated</h3><p class="paragraph">Use Calendar2 instead</p></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html"><strike>HighlightedDaysAdapter</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>locale<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter ">holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">formatDate<span class="token operator">: </span><a href="../index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span> : <a href="../-month-footer-adapter/index.html">MonthFooterAdapter</a></div><div class="deprecation-content"><h3 class="">Deprecated</h3><p class="paragraph">Use Calendar2 instead</p></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="tabbedcontent">Constructors</h2>
-      <div class="table" data-togglable="Constructors"><a data-name="-245217754%2FConstructors%2F-1657958349" anchor-label="HighlightedDaysAdapter" id="-245217754%2FConstructors%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue TabbedContent">
-            <div class=""><span class="inline-flex">
-                <div><a href="-highlighted-days-adapter.html"><span>Highlighted</span><wbr><span>Days</span><wbr><span><span>Adapter</span></span></a></div>
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-245217754%2FConstructors%2F-1657958349" anchor-label="HighlightedDaysAdapter" id="-245217754%2FConstructors%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-highlighted-days-adapter.html"><span>Highlighted</span><wbr><span>Days</span><wbr><span><span>Adapter</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-245217754%2FConstructors%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-highlighted-days-adapter.html"><span class="token function">HighlightedDaysAdapter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">locale<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter ">holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">formatDate<span class="token operator">: </span><a href="../index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">locale<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html">Locale</a><span class="token punctuation">, </span></span><span class="parameter ">holidays<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="-highlighted-day/index.html">HighlightedDaysAdapter.HighlightedDay</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">formatDate<span class="token operator">: </span><a href="../index.html#1906717022%2FClasslikes%2F-1657958349">DateFormatter</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Types</h2>
-      <div class="table" data-togglable="Types"><a data-name="-425855736%2FClasslikes%2F-1657958349" anchor-label="HighlightedDay" id="-425855736%2FClasslikes%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="-highlighted-day/index.html"><span>Highlighted</span><wbr><span><span>Day</span></span></a></div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-425855736%2FClasslikes%2F-1657958349" anchor-label="HighlightedDay" id="-425855736%2FClasslikes%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-highlighted-day/index.html"><span>Highlighted</span><wbr><span><span>Day</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-425855736%2FClasslikes%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-highlighted-day/index.html"><strike>HighlightedDay</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>date<span class="token operator">: </span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a>&nbsp;</span><span class="token keyword">val </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>descriptionOnly<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="-highlighted-day/index.html"><strike>HighlightedDay</strike></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>date<span class="token operator">: </span><span data-unresolved-link="org.threeten.bp/LocalDate///PointingToDeclaration/">LocalDate</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>description<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a>&nbsp;</span><span class="token keyword">val </span>color<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>descriptionOnly<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Functions</h2>
-      <div class="table" data-togglable="Functions"><a data-name="-72417139%2FFunctions%2F-1657958349" anchor-label="hasFooterForMonth" id="-72417139%2FFunctions%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="has-footer-for-month.html"><span>has</span><wbr><span>Footer</span><wbr><span>For</span><wbr><span><span>Month</span></span></a></div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-72417139%2FFunctions%2F-1657958349" anchor-label="hasFooterForMonth" id="-72417139%2FFunctions%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="has-footer-for-month.html"><span>has</span><wbr><span>Footer</span><wbr><span>For</span><wbr><span><span>Month</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-72417139%2FFunctions%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="has-footer-for-month.html"><span class="token function">hasFooterForMonth</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Indicate that a month/year combination has a footer view.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="has-footer-for-month.html"><span class="token function">hasFooterForMonth</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Indicate that a month/year combination has a footer view.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="834174424%2FFunctions%2F-1657958349" anchor-label="onBindView" id="834174424%2FFunctions%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="on-bind-view.html"><span>on</span><wbr><span>Bind</span><wbr><span><span>View</span></span></a></div>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-bind-view.html"><span>on</span><wbr><span>Bind</span><wbr><span><span>View</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="834174424%2FFunctions%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-bind-view.html"><span class="token function">onBindView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">view<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token punctuation">, </span></span><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when data should be bind to <code class="lang-kotlin">View</code>.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-bind-view.html"><span class="token function">onBindView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">view<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token punctuation">, </span></span><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when data should be bind to <code class="lang-kotlin">View</code>.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="1381500419%2FFunctions%2F-1657958349" anchor-label="onCreateView" id="1381500419%2FFunctions%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="on-create-view.html"><span>on</span><wbr><span>Create</span><wbr><span><span>View</span></span></a></div>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-create-view.html"><span>on</span><wbr><span>Create</span><wbr><span><span>View</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1381500419%2FFunctions%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create-view.html"><span class="token function">onCreateView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a></div><div class="brief "><p class="paragraph">Called when a new instance of a footer view should be created.</p></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-create-view.html"><span class="token function">onCreateView</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">month<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">year<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a></div><div class="brief "><p class="paragraph">Called when a new instance of a footer view should be created.</p></div></div></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="1134789583%2FProperties%2F-1657958349" anchor-label="context" id="1134789583%2FProperties%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="context.html"><span><span>context</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1134789583%2FProperties%2F-1657958349" anchor-label="context" id="1134789583%2FProperties%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="context.html"><span><span>context</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1134789583%2FProperties%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><a data-name="1134789583%2FProperties%2F-1657958349" anchor-label="context" id="1134789583%2FProperties%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="context.html">context</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="context.html">context</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="542542754%2FProperties%2F-1657958349" anchor-label="locale" id="542542754%2FProperties%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="locale.html"><span><span>locale</span></span></a></div>
+          <div class="table-row" data-filterable-current=":Backpack:dokkaHtmlPartial/release" data-filterable-set=":Backpack:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="locale.html"><span><span>locale</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="542542754%2FProperties%2F-1657958349"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><a data-name="542542754%2FProperties%2F-1657958349" anchor-label="locale" id="542542754%2FProperties%2F-1657958349" data-filterable-set=":Backpack:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="locale.html">locale</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":Backpack:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="locale.html">locale</a><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html">Locale</a></div></div></div>
+                </div>
               </div>
             </div>
           </div>
@@ -176,6 +187,6 @@
       </div>
     </div>
 </div>
-
-</body></html>
+</body>
+</html>
 

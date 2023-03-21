@@ -37,6 +37,9 @@
     <div>
     </div>
     <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":backpack-common:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
         <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
         <div id="searchBar"></div>
     </div>
@@ -46,68 +49,46 @@
         <div id="sideMenu"></div>
     </div>
     <div id="main">
-<div class="main-content" id="content" pageids="backpack-common::net.skyscanner.backpack.util/StateMachine///PointingToDeclaration//1672926093">
+<div class="main-content" data-page-type="classlike" id="content" pageids="backpack-common::net.skyscanner.backpack.util/StateMachine///PointingToDeclaration//1672926093">
   <div class="breadcrumbs"><a href="../../index.html">backpack-common</a><span class="delimiter">/</span><a href="../index.html">net.skyscanner.backpack.util</a><span class="delimiter">/</span><span class="current">StateMachine</span></div>
   <div class="cover ">
     <h1 class="cover"><span>State</span><wbr><span><span>Machine</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Stable.html"><span class="token annotation builtin">Stable</span></a></div></div><span class="token keyword">interface </span><a href="index.html">StateMachine</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">State</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="index.html">Effect</a><span class="token operator">&gt;</span></div><p class="paragraph">StateMachine apis are used for some complex components with some state management.</p><p class="paragraph">Each time the state changes, a new version of it is available for reading in <a href="state.html">state</a>.</p><p class="paragraph">Each state change may also emmit a temporarily existing <a href="effects.html">effects</a> (for instance, to show Toast in case of error).</p><p class="paragraph">The widget decided itself when the state needs to be changed. It may also provide some public methods to have limited control over the state changes (e.g. settings the params).</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Stable.html"><span class="token annotation builtin">Stable</span></a></div></div><span class="token keyword">interface </span><a href="index.html">StateMachine</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">State</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="index.html">Effect</a><span class="token operator">&gt;</span></div><p class="paragraph">StateMachine apis are used for some complex components with some state management.</p><p class="paragraph">Each time the state changes, a new version of it is available for reading in <a href="state.html">state</a>.</p><p class="paragraph">Each state change may also emmit a temporarily existing <a href="effects.html">effects</a> (for instance, to show Toast in case of error).</p><p class="paragraph">The widget decided itself when the state needs to be changed. It may also provide some public methods to have limited control over the state changes (e.g. settings the params).</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../../net.skyscanner.backpack.calendar2.data/-calendar-state-machine/index.html">CalendarStateMachine</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../-mutable-state-machine/index.html">MutableStateMachine</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button></div>
     <div class="tabs-section-body">
-      <h2 class="">Properties</h2>
-      <div class="table" data-togglable="Properties"><a data-name="1510692853%2FProperties%2F1672926093" anchor-label="effects" id="1510692853%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="effects.html"><span><span>effects</span></span></a></div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1510692853%2FProperties%2F1672926093" anchor-label="effects" id="1510692853%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="effects.html"><span><span>effects</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1510692853%2FProperties%2F1672926093"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><a data-name="1510692853%2FProperties%2F1672926093" anchor-label="effects" id="1510692853%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="effects.html">effects</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/SharedFlow///PointingToDeclaration/">SharedFlow</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">Effect</a><span class="token operator">&gt;</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="effects.html">effects</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/SharedFlow///PointingToDeclaration/">SharedFlow</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">Effect</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 <a data-name="166875590%2FProperties%2F1672926093" anchor-label="state" id="166875590%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="state.html"><span><span>state</span></span></a></div>
+          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="state.html"><span><span>state</span></span></a></div>
 <span class="anchor-wrapper"><span class="anchor-icon" pointing-to="166875590%2FProperties%2F1672926093"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div>
-              <div class="title">
-                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><a data-name="166875590%2FProperties%2F1672926093" anchor-label="state" id="166875590%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="state.html">state</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">State</a><span class="token operator">&gt;</span></div></div></div>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="state.html">state</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">State</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <h2 class="">Inheritors</h2>
-      <div class="table" data-togglable="Inheritors"><a data-name="-1033288192%2FInheritors%2F1672926093" anchor-label="CalendarStateMachine" id="-1033288192%2FInheritors%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../../net.skyscanner.backpack.calendar2.data/-calendar-state-machine/index.html">CalendarStateMachine</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1033288192%2FInheritors%2F1672926093"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div></div>
-          </div>
-        </div>
-<a data-name="1033505364%2FInheritors%2F1672926093" anchor-label="MutableStateMachine" id="1033505364%2FInheritors%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-        <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-          <div class="main-subrow keyValue ">
-            <div class=""><span class="inline-flex">
-                <div><a href="../-mutable-state-machine/index.html">MutableStateMachine</a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1033505364%2FInheritors%2F1672926093"></span>
-                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                </span></span></div>
-            <div></div>
           </div>
         </div>
       </div>
@@ -119,6 +100,6 @@
       </div>
     </div>
 </div>
-
-</body></html>
+</body>
+</html>
 
