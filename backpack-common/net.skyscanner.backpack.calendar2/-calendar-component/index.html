@@ -56,42 +56,8 @@
     <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Stable.html"><span class="token annotation builtin">Stable</span></a></div></div><span class="token keyword">interface </span><a href="index.html">CalendarComponent</a></div><p class="paragraph">Calendar public API.</p><p class="paragraph">It works like a state machine – calling each method updates its state in background and emits new state to <a href="state.html">state</a>. The state could also be updated when some UI event (such as date selection) happens.</p><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="../../net.skyscanner.backpack.calendar2.data/-calendar-state-machine/index.html">CalendarStateMachine</a></div></span></div><div></div></div></div></div></div></div>
   </div>
   <div class="tabbedcontent">
-    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,FUNCTION,PROPERTY">Members</button></div>
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
-      <div data-togglable="FUNCTION">
-        <h2 class="">Functions</h2>
-        <div class="table"><a data-name="492084866%2FFunctions%2F1672926093" anchor-label="setParams" id="492084866%2FFunctions%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="set-params.html"><span>set</span><wbr><span><span>Params</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="492084866%2FFunctions%2F1672926093"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-params.html"><span class="token function">setParams</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="../-calendar-params/index.html">CalendarParams</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Updates the params used to configure the calendar. Please note the changes won't apply immediately – the new state will be calculated in background thread.</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-<a data-name="1950435074%2FFunctions%2F1672926093" anchor-label="setSelection" id="1950435074%2FFunctions%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
-          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
-            <div class="main-subrow keyValue ">
-              <div class=""><span class="inline-flex">
-                  <div><a href="set-selection.html"><span>set</span><wbr><span><span>Selection</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1950435074%2FFunctions%2F1672926093"></span>
-                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
-                  </span></span></div>
-              <div>
-                <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-selection.html"><span class="token function">setSelection</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">selection<span class="token operator">: </span><a href="../-calendar-selection/index.html">CalendarSelection</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sets custom dates selection programmatically.</p></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div data-togglable="PROPERTY">
         <h2 class="">Properties</h2>
         <div class="table"><a data-name="-1105090700%2FProperties%2F1672926093" anchor-label="effects" id="-1105090700%2FProperties%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
@@ -120,6 +86,40 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="state.html">state</a><span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines.flow/StateFlow///PointingToDeclaration/">StateFlow</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-calendar-state/index.html">CalendarState</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">The current state the calendar in.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="492084866%2FFunctions%2F1672926093" anchor-label="setParams" id="492084866%2FFunctions%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-params.html"><span>set</span><wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="492084866%2FFunctions%2F1672926093"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-params.html"><span class="token function">setParams</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="../-calendar-params/index.html">CalendarParams</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Updates the params used to configure the calendar. Please note the changes won't apply immediately – the new state will be calculated in background thread.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1950435074%2FFunctions%2F1672926093" anchor-label="setSelection" id="1950435074%2FFunctions%2F1672926093" data-filterable-set=":backpack-common:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-common:dokkaHtmlPartial/release" data-filterable-set=":backpack-common:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-selection.html"><span>set</span><wbr><span><span>Selection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1950435074%2FFunctions%2F1672926093"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-common:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-selection.html"><span class="token function">setSelection</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">selection<span class="token operator">: </span><a href="../-calendar-selection/index.html">CalendarSelection</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Sets custom dates selection programmatically.</p></div></div></div>
                 </div>
               </div>
             </div>
