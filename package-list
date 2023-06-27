@@ -60,6 +60,8 @@ net.skyscanner.backpack.compose.cardwrapper
 net.skyscanner.backpack.compose.carousel
 net.skyscanner.backpack.compose.checkbox
 net.skyscanner.backpack.compose.chip
+net.skyscanner.backpack.compose.chipgroup.multiple
+net.skyscanner.backpack.compose.chipgroup.single
 net.skyscanner.backpack.compose.dialog
 net.skyscanner.backpack.compose.dividedcard
 net.skyscanner.backpack.compose.divider
