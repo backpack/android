@@ -86,6 +86,8 @@ net.skyscanner.backpack.compose.sectionheader
 net.skyscanner.backpack.compose.select
 net.skyscanner.backpack.compose.sleketon
 net.skyscanner.backpack.compose.slider
+net.skyscanner.backpack.compose.snippet
+net.skyscanner.backpack.compose.snippet.internal
 net.skyscanner.backpack.compose.spinner
 net.skyscanner.backpack.compose.starrating
 net.skyscanner.backpack.compose.switch
