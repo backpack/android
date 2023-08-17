@@ -51,6 +51,7 @@ net.skyscanner.backpack.compose.badge
 net.skyscanner.backpack.compose.barchart
 net.skyscanner.backpack.compose.bottomnav
 net.skyscanner.backpack.compose.bottomsheet
+net.skyscanner.backpack.compose.bottomsheet.internal
 net.skyscanner.backpack.compose.button
 net.skyscanner.backpack.compose.calendar
 net.skyscanner.backpack.compose.calendar.internal
