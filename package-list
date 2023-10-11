@@ -47,6 +47,7 @@ net.skyscanner.backpack.util
 module:backpack-compose
 net.skyscanner.backpack.compose
 net.skyscanner.backpack.compose.annotation
+net.skyscanner.backpack.compose.appsearchmodal
 net.skyscanner.backpack.compose.badge
 net.skyscanner.backpack.compose.barchart
 net.skyscanner.backpack.compose.bottomnav
@@ -91,6 +92,7 @@ net.skyscanner.backpack.compose.slider
 net.skyscanner.backpack.compose.snippet
 net.skyscanner.backpack.compose.snippet.internal
 net.skyscanner.backpack.compose.spinner
+net.skyscanner.backpack.compose.sponsoredbanner
 net.skyscanner.backpack.compose.starrating
 net.skyscanner.backpack.compose.switch
 net.skyscanner.backpack.compose.text
