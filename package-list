@@ -72,6 +72,7 @@ net.skyscanner.backpack.compose.fieldset
 net.skyscanner.backpack.compose.flare
 net.skyscanner.backpack.compose.flightleg
 net.skyscanner.backpack.compose.floatingnotification
+net.skyscanner.backpack.compose.graphicpromotion
 net.skyscanner.backpack.compose.horizontalnav
 net.skyscanner.backpack.compose.icon
 net.skyscanner.backpack.compose.insetbanner
