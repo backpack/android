@@ -75,6 +75,7 @@ net.skyscanner.backpack.compose.floatingnotification
 net.skyscanner.backpack.compose.graphicpromotion
 net.skyscanner.backpack.compose.horizontalnav
 net.skyscanner.backpack.compose.icon
+net.skyscanner.backpack.compose.imagegallery
 net.skyscanner.backpack.compose.insetbanner
 net.skyscanner.backpack.compose.map
 net.skyscanner.backpack.compose.modal
