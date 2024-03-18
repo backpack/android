@@ -80,6 +80,7 @@ net.skyscanner.backpack.compose.insetbanner
 net.skyscanner.backpack.compose.map
 net.skyscanner.backpack.compose.modal
 net.skyscanner.backpack.compose.navigationbar
+net.skyscanner.backpack.compose.navigationtabgroup
 net.skyscanner.backpack.compose.nudger
 net.skyscanner.backpack.compose.overlay
 net.skyscanner.backpack.compose.pageindicator
