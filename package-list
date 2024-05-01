@@ -90,6 +90,7 @@ net.skyscanner.backpack.compose.progressbar
 net.skyscanner.backpack.compose.radiobutton
 net.skyscanner.backpack.compose.rating
 net.skyscanner.backpack.compose.ratingbar
+net.skyscanner.backpack.compose.searchinputsummary
 net.skyscanner.backpack.compose.sectionheader
 net.skyscanner.backpack.compose.select
 net.skyscanner.backpack.compose.skeleton
