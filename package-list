@@ -8,10 +8,6 @@ net.skyscanner.backpack.bottomnav
 net.skyscanner.backpack.bottomsheet
 net.skyscanner.backpack.button
 net.skyscanner.backpack.button.internal
-net.skyscanner.backpack.calendar
-net.skyscanner.backpack.calendar.model
-net.skyscanner.backpack.calendar.presenter
-net.skyscanner.backpack.calendar.view
 net.skyscanner.backpack.calendar2
 net.skyscanner.backpack.card
 net.skyscanner.backpack.checkbox
