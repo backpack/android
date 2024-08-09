@@ -55,6 +55,7 @@ net.skyscanner.backpack.compose.calendar
 net.skyscanner.backpack.compose.calendar.internal
 net.skyscanner.backpack.compose.card
 net.skyscanner.backpack.compose.cardbutton
+net.skyscanner.backpack.compose.cardcarousel
 net.skyscanner.backpack.compose.cardlist.rail
 net.skyscanner.backpack.compose.cardlist.rail.internal
 net.skyscanner.backpack.compose.cardwrapper
