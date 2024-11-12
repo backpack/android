@@ -73,6 +73,7 @@ net.skyscanner.backpack.compose.flare
 net.skyscanner.backpack.compose.flightleg
 net.skyscanner.backpack.compose.floatingnotification
 net.skyscanner.backpack.compose.graphicpromotion
+net.skyscanner.backpack.compose.graphicpromotion.internal
 net.skyscanner.backpack.compose.horizontalnav
 net.skyscanner.backpack.compose.icon
 net.skyscanner.backpack.compose.imagegallery
@@ -92,6 +93,7 @@ net.skyscanner.backpack.compose.rating
 net.skyscanner.backpack.compose.ratingbar
 net.skyscanner.backpack.compose.searchinputsummary
 net.skyscanner.backpack.compose.sectionheader
+net.skyscanner.backpack.compose.segmentedcontrol
 net.skyscanner.backpack.compose.select
 net.skyscanner.backpack.compose.skeleton
 net.skyscanner.backpack.compose.slider
