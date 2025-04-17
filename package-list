@@ -58,6 +58,7 @@ net.skyscanner.backpack.compose.cardbutton
 net.skyscanner.backpack.compose.cardcarousel
 net.skyscanner.backpack.compose.cardlist.rail
 net.skyscanner.backpack.compose.cardlist.rail.internal
+net.skyscanner.backpack.compose.cardlist.stack
 net.skyscanner.backpack.compose.cardwrapper
 net.skyscanner.backpack.compose.carousel
 net.skyscanner.backpack.compose.checkbox
