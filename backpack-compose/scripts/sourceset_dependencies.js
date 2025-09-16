@@ -1,0 +1,1 @@
+sourceset_dependencies='{":backpack-compose/debug":[],":backpack-compose/main":[],":backpack-compose/release":[]}'

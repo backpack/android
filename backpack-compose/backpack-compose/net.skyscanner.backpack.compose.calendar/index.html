@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>net.skyscanner.backpack.compose.calendar</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<link href="../../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../ui-kit/ui-kit.min.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+    <nav class="navigation theme-dark" id="navigation-wrapper">
+            <a class="library-name--link" href="../../index.html">
+                    backpack-compose
+            </a>
+        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle"
+                type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">
+        </div>
+        <div class="navigation-controls">
+        <div class="filter-section filter-section_loading" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active=""
+                        data-filter=":backpack-compose/release">backpack-compose</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox"
+                        data-role="dropdown-toggle"
+                        aria-controls="platform-tags-listbox"
+                        aria-haspopup="listbox"
+                        aria-expanded="false"
+                        aria-label="Toggle source sets"
+                ></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox">
+                    <div class="dropdown--header"><span>Platform filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close platform filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option jvm-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":backpack-compose/release"
+                                       data-filter=":backpack-compose/release"/>
+                                <span class="checkbox--icon"></span>
+                                backpack-compose
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </div>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button"
+                    type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                    <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list"
+                        data-role="dropdown-listbox">
+                        <div class="dropdown--header">
+                            <span>
+                                    backpack-compose
+                            </span>
+                            <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                                <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                            </button>
+                        </div>
+                        <div class="sidebar--inner" id="sideMenu"></div>
+                    </ul>
+                    <div class="dropdown--overlay"></div>
+                </div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="backpack-compose::net.skyscanner.backpack.compose.calendar////PointingToDeclaration//1971483869">
+  <div class="breadcrumbs"><a href="../../index.html">backpack-compose</a><span class="delimiter">/</span><span class="current">net.skyscanner.backpack.compose.calendar</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="TYPE">Types</button><button class="section-tab" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="770421601%2FClasslikes%2F1971483869" anchor-label="BpkCalendarController" id="770421601%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-bpk-calendar-controller/index.html"><span>Bpk</span><wbr></wbr><span>Calendar</span><wbr></wbr><span><span>Controller</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="770421601%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-bpk-calendar-controller/index.html">BpkCalendarController</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">initialParams<span class="token operator">: </span><a href="-calendar-params/index.html">CalendarParams</a><span class="token punctuation">, </span></span><span class="parameter ">initialSelection<span class="token operator">: </span><a href="-calendar-selection/index.html">CalendarSelection</a><span class="token operator"> = </span>CalendarSelection.None<span class="token punctuation">, </span></span><span class="parameter ">lazyGridState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/compose/foundation/lazy/grid/LazyGridState.html">LazyGridState</a><span class="token operator"> = </span>LazyGridState()<span class="token punctuation">, </span></span><span class="parameter ">onSelectionChanged<span class="token operator">: </span><span class="token punctuation">(</span><a href="-calendar-selection/index.html">CalendarSelection</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-715349758%2FClasslikes%2F1971483869" anchor-label="CalendarDayCellTestTag" id="-715349758%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-calendar-day-cell-test-tag/index.html"><span>Calendar</span><wbr></wbr><span>Day</span><wbr></wbr><span>Cell</span><wbr></wbr><span>Test</span><wbr></wbr><span><span>Tag</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-715349758%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-calendar-day-cell-test-tag/index.html">CalendarDayCellTestTag</a> : <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-calendar-day-cell-test-tag/index.html">CalendarDayCellTestTag</a><span class="token operator">&gt; </span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-256286204%2FClasslikes%2F1971483869" anchor-label="CalendarInteraction" id="-256286204%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-calendar-interaction/index.html"><span>Calendar</span><wbr></wbr><span><span>Interaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-256286204%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Stable.html"><span class="token annotation builtin">Stable</span></a></div></div><span class="token keyword">sealed </span><span class="token keyword">interface </span><a href="-calendar-interaction/index.html">CalendarInteraction</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1742310054%2FClasslikes%2F1971483869" anchor-label="CalendarParams" id="1742310054%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-calendar-params/index.html"><span>Calendar</span><wbr></wbr><span><span>Params</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1742310054%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Immutable.html"><span class="token annotation builtin">Immutable</span></a></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="-calendar-params/index.html">CalendarParams</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>selectionMode<span class="token operator">: </span><a href="-calendar-params/-selection-mode/index.html">CalendarParams.SelectionMode</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>range<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.ranges/-closed-range/index.html">ClosedRange</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/time/LocalDate.html">LocalDate</a><span class="token operator">&gt;</span><span class="token operator"> = </span>LocalDate.now()..LocalDate.now().plusYears(1)<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>cellsInfo<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-map/index.html">Map</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/time/LocalDate.html">LocalDate</a><span class="token punctuation">, </span><a href="-cell-info/index.html">CellInfo</a><span class="token operator">&gt;</span><span class="token operator"> = </span>emptyMap()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>locale<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Locale.html">Locale</a><span class="token operator"> = </span>Locale.getDefault()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dayOfWeekText<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/time/format/TextStyle.html">TextStyle</a><span class="token operator"> = </span>findBestWeekdayStyleForLocale(locale)<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>dateContentDescriptionStyle<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/time/format/FormatStyle.html">FormatStyle</a><span class="token operator"> = </span>FormatStyle.FULL<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>now<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/time/LocalDate.html">LocalDate</a><span class="token operator"> = </span>LocalDate.now()<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>yearLabelInMonthHeader<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Describes the calendar configuration.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-125247222%2FClasslikes%2F1971483869" anchor-label="CalendarSelection" id="-125247222%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-calendar-selection/index.html"><span>Calendar</span><wbr></wbr><span><span>Selection</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-125247222%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Stable.html"><span class="token annotation builtin">Stable</span></a></div></div><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="-calendar-selection/index.html">CalendarSelection</a> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Describes the current selection in the calendar</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2071959578%2FClasslikes%2F1971483869" anchor-label="CellInfo" id="2071959578%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cell-info/index.html"><span>Cell</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2071959578%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Immutable.html"><span class="token annotation builtin">Immutable</span></a></div></div><span class="token keyword">data </span><span class="token keyword">class </span><a href="-cell-info/index.html">CellInfo</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>disabled<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>status<span class="token operator">: </span><a href="-cell-status/index.html">CellStatus</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>highlighted<span class="token operator">: </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>label<span class="token operator">: </span><a href="-cell-label/index.html">CellLabel</a><span class="token operator"> = </span>CellLabel.Text(&quot;&quot;)<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>style<span class="token operator">: </span><a href="-cell-status-style/index.html">CellStatusStyle</a><span class="token operator"> = </span>CellStatusStyle.Label</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Additional information to be added to dates cell</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-885717562%2FClasslikes%2F1971483869" anchor-label="CellLabel" id="-885717562%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cell-label/index.html"><span>Cell</span><wbr></wbr><span><span>Label</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-885717562%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="-cell-label/index.html">CellLabel</a> : <a href="https://developer.android.com/reference/kotlin/java/io/Serializable.html">Serializable</a></div><div class="brief "><p class="paragraph">Describes the label of the cell</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="747456406%2FClasslikes%2F1971483869" anchor-label="CellStatus" id="747456406%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cell-status/index.html"><span>Cell</span><wbr></wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="747456406%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-cell-status/index.html">CellStatus</a> : <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-cell-status/index.html">CellStatus</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Describes the colouring of the cell</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="616301435%2FClasslikes%2F1971483869" anchor-label="CellStatusStyle" id="616301435%2FClasslikes%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-cell-status-style/index.html"><span>Cell</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Style</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="616301435%2FClasslikes%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><span class="token keyword">enum </span><a href="-cell-status-style/index.html">CellStatusStyle</a> : <a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><a href="-cell-status-style/index.html">CellStatusStyle</a><span class="token operator">&gt; </span></div><div class="brief "><p class="paragraph">Describes the colouring behaviour of the cell</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1919853276%2FFunctions%2F1971483869" anchor-label="BpkCalendar" id="-1919853276%2FFunctions%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-bpk-calendar.html"><span>Bpk</span><wbr></wbr><span><span>Calendar</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1919853276%2FFunctions%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div></div><span class="token keyword">fun </span><a href="-bpk-calendar.html"><span class="token function">BpkCalendar</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">controller<span class="token operator">: </span><a href="-bpk-calendar-controller/index.html">BpkCalendarController</a><span class="token punctuation">, </span></span><span class="parameter ">modifier<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier.html">Modifier</a><span class="token operator"> = </span>Modifier<span class="token punctuation">, </span></span><span class="parameter ">customDateHandling<span class="token operator">: </span><span class="token punctuation">(</span><a href="-calendar-interaction/index.html">CalendarInteraction</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">onVisibleMonthsChanged<span class="token operator">: </span><span class="token punctuation">(</span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.collections/-set/index.html">Set</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/time/YearMonth.html">YearMonth</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2116059939%2FFunctions%2F1971483869" anchor-label="rememberCalendarController" id="-2116059939%2FFunctions%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+          <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remember-calendar-controller.html"><span>remember</span><wbr></wbr><span>Calendar</span><wbr></wbr><span><span>Controller</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2116059939%2FFunctions%2F1971483869"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":backpack-compose/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div></div><span class="token keyword">fun </span><a href="remember-calendar-controller.html"><span class="token function">rememberCalendarController</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">initialParams<span class="token operator">: </span><a href="-calendar-params/index.html">CalendarParams</a><span class="token punctuation">, </span></span><span class="parameter ">initialSelection<span class="token operator">: </span><a href="-calendar-selection/index.html">CalendarSelection</a><span class="token operator"> = </span>CalendarSelection.None<span class="token punctuation">, </span></span><span class="parameter ">lazyGridState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/compose/foundation/lazy/grid/LazyGridState.html">LazyGridState</a><span class="token operator"> = </span>rememberLazyGridState()<span class="token punctuation">, </span></span><span class="parameter ">onSelectionChanged<span class="token operator">: </span><span class="token punctuation">(</span><a href="-calendar-selection/index.html">CalendarSelection</a><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="-bpk-calendar-controller/index.html">BpkCalendarController</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+        <span>© 2025 Copyright</span>
+        <span class="pull-right">
+            <span>Generated by </span>
+            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                <span>dokka</span>
+            </a>
+        </span>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

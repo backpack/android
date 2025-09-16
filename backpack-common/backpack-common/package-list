@@ -1,0 +1,23 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:net.skyscanner.backpack.configuration////PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration.BpkExperimentalComponent.BpkButton///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/-bpk-experimental-component/-bpk-button/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration.BpkExperimentalComponent.BpkCard///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/-bpk-experimental-component/-bpk-card/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration.BpkExperimentalComponent.BpkChip///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/-bpk-experimental-component/-bpk-chip/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration.BpkExperimentalComponent.BpkText///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/-bpk-experimental-component/-bpk-text/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration.BpkExperimentalComponent///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/-bpk-experimental-component/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration///PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/index.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/buttonConfig/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/button-config.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/cardConfig/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/card-config.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/chipConfig/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/chip-config.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/logger/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/logger.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/performLogging/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/perform-logging.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/setConfigs/#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean#kotlin.Boolean/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/set-configs.html
+$dokka.location:net.skyscanner.backpack.configuration/BpkConfiguration/textConfig/#/PointingToDeclaration/backpack-common/net.skyscanner.backpack.configuration/-bpk-configuration/text-config.html
+$dokka.location:net.skyscanner.backpack.util////PointingToDeclaration/backpack-common/net.skyscanner.backpack.util/index.html
+$dokka.location:net.skyscanner.backpack.util//runIfCurrentlyVisible/android.view.View#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/backpack-common/net.skyscanner.backpack.util/run-if-currently-visible.html
+$dokka.location:net.skyscanner.backpack.util//runOnFirstVisible/android.view.View#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/backpack-common/net.skyscanner.backpack.util/run-on-first-visible.html
+$dokka.location:net.skyscanner.backpack.util/ExperimentalBackpackApi///PointingToDeclaration/backpack-common/net.skyscanner.backpack.util/-experimental-backpack-api/index.html
+$dokka.location:net.skyscanner.backpack.util/InternalBackpackApi///PointingToDeclaration/backpack-common/net.skyscanner.backpack.util/-internal-backpack-api/index.html
+net.skyscanner.backpack.configuration
+net.skyscanner.backpack.util
