@@ -1,0 +1,161 @@
+# Bottom Sheet
+
+[![Maven Central](https://img.shields.io/maven-central/v/net.skyscanner.backpack/backpack-compose)](https://search.maven.org/artifact/net.skyscanner.backpack/backpack-compose)
+[![Class reference](https://img.shields.io/badge/Class%20reference-Android-blue)](https://backpack.github.io/android/backpack-compose/net.skyscanner.backpack.compose.bottomsheet)
+[![Source code](https://img.shields.io/badge/Source%20code-GitHub-lightgrey)](https://github.com/backpack/android/tree/main/backpack-compose/src/main/kotlin/net/skyscanner/backpack/compose/bottomsheet)
+
+## Default
+
+| Day                                                                                                                                                                | Night |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/default.png" alt="BottomSheet component" width="375" /> |<img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/default_dm.png" alt="BottomSheet component - dark mode" width="375" /> |
+
+## BottomSheet with Light Drag Handle over Image content
+
+| Day                                                                                                                                                                                                         | Night |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/image-content-sheet-with-light-draghandle.png" alt="BottomSheet component" width="375" /> |<img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/image-content-sheet-with-light-draghandle_dm.png" alt="BottomSheet component - dark mode" width="375" /> |
+
+## Modal
+
+| Day                                                                                                                                                                           | Night                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal.png" alt="Modal BottomSheet component" width="375" /> | <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal_dm.png" alt="Modal BottomSheet component - dark mode" width="375" /> |
+
+## Modal With TopBar
+
+| Day                                                                                                                                                                                                   | Night                                                                                                                                                                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal-with-topbar.png" alt="Modal With TopBar BottomSheet component" width="375" /> | <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal-with-topbar_dm.png" alt="Modal With TopBar BottomSheet component - dark mode" width="375" /> |
+
+## Modal with Dark Drag Handle over Image content
+
+| Day                                                                                                                                                                                                | Night |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal-sheet-with-dark-draghandle.png" alt="BottomSheet component" width="375" /> |<img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/modal-sheet-with-dark-draghandle_dm.png" alt="BottomSheet component - dark mode" width="375" /> |
+
+## Modal with TopBar and Dark Drag Handle over Image content
+
+| Day                                                                                                                                                                                                                             | Night |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| <img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/image-modal-sheet-with-topbar-and-dark-drag-handle.png" alt="Modal with TopBar BottomSheet over image component" width="375" /> |<img src="https://raw.githubusercontent.com/backpack/android/main/docs/compose/BottomSheet/screenshots/image-modal-sheet-with-topbar-and-dark-drag-handle_dm.png" alt="Modal with TopBar BottomSheet over image component - dark mode" width="375" /> |
+
+
+## Installation
+
+Backpack Compose is available through [Maven Central](https://search.maven.org/artifact/net.skyscanner.backpack/backpack-compose). Check the main [Readme](https://github.com/skyscanner/backpack-android#installation) for a complete installation guide.
+
+## Usage
+
+Example of a Bottom Sheet:
+
+```Kotlin
+import net.skyscanner.backpack.compose.bottomsheet.BpkBottomSheet
+import net.skyscanner.backpack.compose.bottomsheet.BpkBottomSheetState
+import net.skyscanner.backpack.compose.bottomsheet.rememberBpkBottomSheetState
+
+val state = rememberBpkBottomSheetState()
+
+BpkBottomSheet(
+  state = state,
+  peekHeight = HeightOfCollapsedBottomSheet,
+  sheetContent = { /* content of the bottom sheet */ },
+  dragHandleStyle = BpkDragHandleStyle.Default,
+  content = { contentPadding ->
+    // content displayed behind bottom sheet
+    // you should apply content padding to avoid displaying content behind collapsed bottom sheet
+    // here's an example:
+    Box(modifier = Modifier
+      .fillMaxSize()
+      .background(myBackground)
+      .padding(contentPadding)
+    ) {
+        // this content will respect the paddings
+    }
+  }
+)
+```
+
+Example of a Modal Bottom Sheet:
+
+```Kotlin
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheet
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheetState
+import net.skyscanner.backpack.compose.bottomsheet.rememberBpkModalBottomSheetState
+
+var openBottomSheet by rememberSaveable { mutableStateOf(true) }
+val state = rememberBpkModalBottomSheetState()
+
+if (openBottomSheet) {
+    BpkModalBottomSheet(
+        state = state,
+        content = { /* content of the bottom sheet */ },
+        dragHandleStyle = BpkDragHandleStyle.Default,
+        onDismissRequest = { openBottomSheet = false },
+    )
+}
+```
+
+Example of a Modal Bottom Sheet With Title and Close NavAction:
+
+```Kotlin
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheet
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheetState
+import net.skyscanner.backpack.compose.bottomsheet.rememberBpkModalBottomSheetState
+
+var openBottomSheet by rememberSaveable { mutableStateOf(true) }
+val state = rememberBpkModalBottomSheetState()
+
+if (openBottomSheet) {
+    BpkModalBottomSheet(
+        state = state,
+        title = stringResource(id = R.string.generic_title),
+        closeButton = BpkModalBottomSheetCloseAction.Default(stringResource(id = R.string.navigation_close)),
+        action = TextAction(text = stringResource(id = R.string.section_header_button_text), {}),
+        content = { /* content of the bottom sheet */ },
+        dragHandleStyle = BpkDragHandleStyle.Default,
+        onDismissRequest = { openBottomSheet = false },
+    )
+}
+```
+By default, the Bottom sheet's `title` text serves as its content description for accessibility purposes. However, if you wish to customize the content description of the title, you can do so by passing a `titleContentDescription` argument, as shown below:
+```Kotlin
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheet
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheetState
+import net.skyscanner.backpack.compose.bottomsheet.rememberBpkModalBottomSheetState
+
+var openBottomSheet by rememberSaveable { mutableStateOf(true) }
+val state = rememberBpkModalBottomSheetState()
+
+if (openBottomSheet) {
+    BpkModalBottomSheet(
+        state = state,
+        title = stringResource(id = R.string.generic_title),
+        titleContentDescription = stringResource(id = R.string.generic_title_custom_content_description),
+        closeButton = BpkModalBottomSheetCloseAction.Default(stringResource(id = R.string.navigation_close)),
+        action = TextAction(text = stringResource(id = R.string.section_header_button_text), {}),
+        content = { /* content of the bottom sheet */ },
+        dragHandleStyle = BpkDragHandleStyle.Default,
+        onDismissRequest = { openBottomSheet = false },
+    )
+}
+```
+By default the Bottom sheet content starts below the drag handle. In cases where you need to show an image at the top you can set the `dragHandleStyle` property to `OnImage` to remove the safe area, like this:
+
+```Kotlin
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheet
+import net.skyscanner.backpack.compose.bottomsheet.BpkModalBottomSheetState
+import net.skyscanner.backpack.compose.bottomsheet.rememberBpkModalBottomSheetState
+
+var openBottomSheet by rememberSaveable { mutableStateOf(true) }
+val state = rememberBpkModalBottomSheetState()
+
+if (openBottomSheet) {
+    BpkModalBottomSheet(
+        state = state,
+        content = { /* image content of the bottom sheet */ },
+        dragHandleStyle = BpkDragHandleStyle.OnImage(Type.Light), // use Type.Dark for Dark dragHandle on Image
+        onDismissRequest = { openBottomSheet = false },
+    )
+}
+```

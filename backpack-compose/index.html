@@ -1,0 +1,1465 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>backpack-compose</title>
+<link href="../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../scripts/sourceset_dependencies.js" async></script>
+<link href="../styles/style.css" rel="Stylesheet">
+<link href="../styles/main.css" rel="Stylesheet">
+<link href="../styles/prism.css" rel="Stylesheet">
+<link href="../styles/logo-styles.css" rel="Stylesheet">
+<link href="../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<link href="../ui-kit/ui-kit.min.css" rel="Stylesheet">
+<script type="text/javascript" src="../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../scripts/main.js" defer></script>
+<script type="text/javascript" src="../scripts/prism.js" async></script>
+<script type="text/javascript" src="../ui-kit/ui-kit.min.js" defer></script>
+<script type="text/javascript" src="../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+    <nav class="navigation theme-dark" id="navigation-wrapper">
+<a class="library-name--link" href="../index.html">
+                    Backpack Android
+            </a>        <button class="navigation-controls--btn navigation-controls--btn_toc ui-kit_mobile-only" id="toc-toggle" type="button">Toggle table of contents
+        </button>
+        <div class="navigation-controls--break ui-kit_mobile-only"></div>
+        <div class="library-version" id="library-version">
+        </div>
+        <div class="navigation-controls">
+        <div class="filter-section filter-section_loading" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":backpack-compose/release">backpack-compose</button>
+            <div class="dropdown filter-section--dropdown" data-role="dropdown" id="filter-section-dropdown">
+                <button class="button button_dropdown filter-section--dropdown-toggle" role="combobox" data-role="dropdown-toggle" aria-controls="platform-tags-listbox" aria-haspopup="listbox" aria-expanded="false" aria-label="Toggle source sets"></button>
+                <ul role="listbox" id="platform-tags-listbox" class="dropdown--list" data-role="dropdown-listbox">
+                    <div class="dropdown--header"><span>Platform filter</span>
+                        <button class="button" data-role="dropdown-toggle" aria-label="Close platform filter">
+                            <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                        </button>
+                    </div>
+                        <li role="option" class="dropdown--option platform-selector-option jvm-like" tabindex="0">
+                            <label class="checkbox">
+                                <input type="checkbox" class="checkbox--input" id=":backpack-compose/release" data-filter=":backpack-compose/release">
+                                <span class="checkbox--icon"></span>
+                                backpack-compose
+                            </label>
+                        </li>
+                </ul>
+                <div class="dropdown--overlay"></div>
+            </div>
+        </div>
+            <button class="navigation-controls--btn navigation-controls--btn_theme" id="theme-toggle-button" type="button">Switch theme
+            </button>
+            <div class="navigation-controls--btn navigation-controls--btn_search" id="searchBar" role="button">Search in
+                API
+            </div>
+        </div>
+    </nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="dropdown theme-dark_mobile" data-role="dropdown" id="toc-dropdown">
+                    <ul role="listbox" id="toc-listbox" class="dropdown--list dropdown--list_toc-list" data-role="dropdown-listbox">
+                        <div class="dropdown--header">
+                            <span>
+                                    Backpack Android
+                            </span>
+                            <button class="button" data-role="dropdown-toggle" aria-label="Close table of contents">
+                                <i class="ui-kit-icon ui-kit-icon_cross"></i>
+                            </button>
+                        </div>
+                        <div class="sidebar--inner" id="sideMenu"></div>
+                    </ul>
+                    <div class="dropdown--overlay"></div>
+                </div>
+            </div>
+            <div id="main">
+<div class="main-content" id="content" pageids="backpack-compose::////PointingToDeclaration//1971483869">
+  <div class="breadcrumbs"></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>backpack-compose</span></span></h1>
+  </div>
+  <h2 class="">Packages</h2>
+  <div class="table"><a data-name="-224660410%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose" id="-224660410%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose/index.html">net.skyscanner.backpack.compose</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-224660410%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1347237531%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.annotation" id="1347237531%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.annotation/index.html">net.skyscanner.backpack.compose.annotation</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1347237531%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1416227696%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.appsearchmodal" id="1416227696%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.appsearchmodal/index.html">net.skyscanner.backpack.compose.appsearchmodal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1416227696%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="249223483%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.badge" id="249223483%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.badge/index.html">net.skyscanner.backpack.compose.badge</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="249223483%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-546698104%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.banneralert" id="-546698104%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.banneralert/index.html">net.skyscanner.backpack.compose.banneralert</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-546698104%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-370957673%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.barchart" id="-370957673%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.barchart/index.html">net.skyscanner.backpack.compose.barchart</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-370957673%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-2133940909%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.blur" id="-2133940909%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.blur/index.html">net.skyscanner.backpack.compose.blur</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2133940909%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="72029372%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.blur.internal" id="72029372%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.blur.internal/index.html">net.skyscanner.backpack.compose.blur.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="72029372%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="701453680%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.bottomnav" id="701453680%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.bottomnav/index.html">net.skyscanner.backpack.compose.bottomnav</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="701453680%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1891870740%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.bottomsheet" id="-1891870740%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.bottomsheet/index.html">net.skyscanner.backpack.compose.bottomsheet</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1891870740%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-250986941%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.bottomsheet.internal" id="-250986941%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.bottomsheet.internal/index.html">net.skyscanner.backpack.compose.bottomsheet.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-250986941%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1827218978%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.button" id="-1827218978%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.button/index.html">net.skyscanner.backpack.compose.button</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1827218978%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="791383146%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.calendar" id="791383146%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.calendar/index.html">net.skyscanner.backpack.compose.calendar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="791383146%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-182765691%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.calendar.internal" id="-182765691%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.calendar.internal/index.html">net.skyscanner.backpack.compose.calendar.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-182765691%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1905914615%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.calendar.internal.data" id="1905914615%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.calendar.internal.data/index.html">net.skyscanner.backpack.compose.calendar.internal.data</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1905914615%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1175657386%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.calendar.internal.extension" id="-1175657386%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.calendar.internal.extension/index.html">net.skyscanner.backpack.compose.calendar.internal.extension</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1175657386%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-970293572%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.card" id="-970293572%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.card/index.html">net.skyscanner.backpack.compose.card</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-970293572%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1631444974%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardbutton" id="1631444974%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardbutton/index.html">net.skyscanner.backpack.compose.cardbutton</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1631444974%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-307794404%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardcarousel" id="-307794404%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardcarousel/index.html">net.skyscanner.backpack.compose.cardcarousel</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-307794404%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1434351786%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardlist.rail" id="1434351786%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardlist.rail/index.html">net.skyscanner.backpack.compose.cardlist.rail</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1434351786%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1850862779%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardlist.rail.internal" id="-1850862779%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardlist.rail.internal/index.html">net.skyscanner.backpack.compose.cardlist.rail.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1850862779%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1499344524%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardlist.stack" id="-1499344524%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardlist.stack/index.html">net.skyscanner.backpack.compose.cardlist.stack</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1499344524%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-658440773%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardlist.stack.internal" id="-658440773%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardlist.stack.internal/index.html">net.skyscanner.backpack.compose.cardlist.stack.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-658440773%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="541355163%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.cardwrapper" id="541355163%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.cardwrapper/index.html">net.skyscanner.backpack.compose.cardwrapper</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="541355163%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="220834828%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.carousel" id="220834828%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.carousel/index.html">net.skyscanner.backpack.compose.carousel</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="220834828%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-342007633%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.checkbox" id="-342007633%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.checkbox/index.html">net.skyscanner.backpack.compose.checkbox</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-342007633%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="533546232%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.chip" id="533546232%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.chip/index.html">net.skyscanner.backpack.compose.chip</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="533546232%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1988906583%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.chipgroup.multiple" id="1988906583%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.chipgroup.multiple/index.html">net.skyscanner.backpack.compose.chipgroup.multiple</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1988906583%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1724781617%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.chipgroup.single" id="-1724781617%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.chipgroup.single/index.html">net.skyscanner.backpack.compose.chipgroup.single</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1724781617%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1073307532%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.dialog" id="-1073307532%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.dialog/index.html">net.skyscanner.backpack.compose.dialog</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1073307532%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1139234739%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.dividedcard" id="1139234739%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.dividedcard/index.html">net.skyscanner.backpack.compose.dividedcard</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1139234739%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-881425487%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.divider" id="-881425487%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.divider/index.html">net.skyscanner.backpack.compose.divider</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-881425487%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-502286049%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.fab" id="-502286049%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.fab/index.html">net.skyscanner.backpack.compose.fab</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-502286049%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1227514324%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.fieldset" id="1227514324%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.fieldset/index.html">net.skyscanner.backpack.compose.fieldset</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1227514324%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1190460838%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.flare" id="1190460838%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.flare/index.html">net.skyscanner.backpack.compose.flare</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1190460838%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1113212534%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.flightleg" id="1113212534%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.flightleg/index.html">net.skyscanner.backpack.compose.flightleg</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1113212534%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-733568931%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.floatingnotification" id="-733568931%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.floatingnotification/index.html">net.skyscanner.backpack.compose.floatingnotification</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-733568931%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1633377369%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.graphicpromotion" id="-1633377369%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.graphicpromotion/index.html">net.skyscanner.backpack.compose.graphicpromotion</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1633377369%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1402211096%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.graphicpromotion.internal" id="-1402211096%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.graphicpromotion.internal/index.html">net.skyscanner.backpack.compose.graphicpromotion.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1402211096%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1772832535%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.horizontalnav" id="1772832535%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.horizontalnav/index.html">net.skyscanner.backpack.compose.horizontalnav</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1772832535%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-2020745499%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.icon" id="-2020745499%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.icon/index.html">net.skyscanner.backpack.compose.icon</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2020745499%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1669951357%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.imagegallery" id="-1669951357%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.imagegallery/index.html">net.skyscanner.backpack.compose.imagegallery</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1669951357%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-790794207%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.insetbanner" id="-790794207%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.insetbanner/index.html">net.skyscanner.backpack.compose.insetbanner</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-790794207%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-458292442%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.link" id="-458292442%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.link/index.html">net.skyscanner.backpack.compose.link</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-458292442%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="632152884%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.map" id="632152884%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.map/index.html">net.skyscanner.backpack.compose.map</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="632152884%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-358735931%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.modal" id="-358735931%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.modal/index.html">net.skyscanner.backpack.compose.modal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-358735931%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1945774569%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.navigationbar" id="-1945774569%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.navigationbar/index.html">net.skyscanner.backpack.compose.navigationbar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1945774569%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1026746058%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.navigationtabgroup" id="1026746058%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.navigationtabgroup/index.html">net.skyscanner.backpack.compose.navigationtabgroup</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1026746058%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1318747427%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.nudger" id="1318747427%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.nudger/index.html">net.skyscanner.backpack.compose.nudger</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1318747427%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-650244568%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.overlay" id="-650244568%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.overlay/index.html">net.skyscanner.backpack.compose.overlay</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-650244568%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1080463800%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.pageindicator" id="1080463800%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.pageindicator/index.html">net.skyscanner.backpack.compose.pageindicator</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1080463800%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-2142625700%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.panel" id="-2142625700%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.panel/index.html">net.skyscanner.backpack.compose.panel</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2142625700%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1247316833%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.price" id="1247316833%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.price/index.html">net.skyscanner.backpack.compose.price</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1247316833%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1877575198%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.progressbar" id="1877575198%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.progressbar/index.html">net.skyscanner.backpack.compose.progressbar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1877575198%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="874788741%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.radiobutton" id="874788741%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.radiobutton/index.html">net.skyscanner.backpack.compose.radiobutton</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="874788741%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="729015433%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.rating" id="729015433%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.rating/index.html">net.skyscanner.backpack.compose.rating</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="729015433%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="2006192686%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.ratingbar" id="2006192686%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.ratingbar/index.html">net.skyscanner.backpack.compose.ratingbar</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2006192686%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-276954256%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.searchinputsummary" id="-276954256%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.searchinputsummary/index.html">net.skyscanner.backpack.compose.searchinputsummary</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-276954256%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1842267274%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.sectionheader" id="1842267274%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.sectionheader/index.html">net.skyscanner.backpack.compose.sectionheader</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1842267274%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-856780041%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.segmentedcontrol" id="-856780041%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.segmentedcontrol/index.html">net.skyscanner.backpack.compose.segmentedcontrol</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-856780041%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-322642136%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.select" id="-322642136%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.select/index.html">net.skyscanner.backpack.compose.select</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-322642136%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1716042567%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.skeleton" id="-1716042567%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.skeleton/index.html">net.skyscanner.backpack.compose.skeleton</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1716042567%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1026793779%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.slider" id="-1026793779%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.slider/index.html">net.skyscanner.backpack.compose.slider</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1026793779%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="749560962%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.slider.internal" id="749560962%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.slider.internal/index.html">net.skyscanner.backpack.compose.slider.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="749560962%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="726869173%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.snippet" id="726869173%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.snippet/index.html">net.skyscanner.backpack.compose.snippet</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="726869173%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-511523942%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.snippet.internal" id="-511523942%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.snippet.internal/index.html">net.skyscanner.backpack.compose.snippet.internal</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-511523942%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1964532401%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.spinner" id="1964532401%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.spinner/index.html">net.skyscanner.backpack.compose.spinner</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1964532401%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1303056933%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.starrating" id="-1303056933%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.starrating/index.html">net.skyscanner.backpack.compose.starrating</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1303056933%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="519998304%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.switch" id="519998304%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.switch/index.html">net.skyscanner.backpack.compose.switch</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="519998304%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="-1327976807%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.text" id="-1327976807%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.text/index.html">net.skyscanner.backpack.compose.text</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1327976807%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="591206%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.textarea" id="591206%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.textarea/index.html">net.skyscanner.backpack.compose.textarea</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="591206%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="398817797%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.textfield" id="398817797%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.textfield/index.html">net.skyscanner.backpack.compose.textfield</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="398817797%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1512550369%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.theme" id="1512550369%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.theme/index.html">net.skyscanner.backpack.compose.theme</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1512550369%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1695188550%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.tokens" id="1695188550%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.tokens/index.html">net.skyscanner.backpack.compose.tokens</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1695188550%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+<a data-name="1309014217%2FPackages%2F1971483869" anchor-label="net.skyscanner.backpack.compose.utils" id="1309014217%2FPackages%2F1971483869" data-filterable-set=":backpack-compose/release"></a>
+    <div class="table-row" data-filterable-current=":backpack-compose/release" data-filterable-set=":backpack-compose/release">
+      <div>
+        <div class="main-subrow ">
+          <div class=""><span class="inline-flex">
+              <div><a href="net.skyscanner.backpack.compose.utils/index.html">net.skyscanner.backpack.compose.utils</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1309014217%2FPackages%2F1971483869"></span>
+                <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+              </span></span></div>
+          <div class="pull-right">
+            <div class="platform-tags no-gutters">
+              <div class="platform-tag jvm-like">backpack-compose</div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="footer">
+        <a href="#content" id="go-to-top-link" class="footer--button footer--button_go-to-top"></a>
+        <span>© 2025 Copyright</span>
+        <span class="pull-right">
+            <span>Generated by </span>
+            <a class="footer--link footer--link_external" href="https://github.com/Kotlin/dokka">
+                <span>dokka</span>
+            </a>
+        </span>
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
